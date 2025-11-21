@@ -83,7 +83,7 @@ export const dogPensionsByViewpoint: Record<string, any[]> = {
     {
       id: "pension-belchen-2",
       name: "4 Pfoten Paradies",
-      distance: ca. 20–30, je nach Standort,
+      distance:" 20–30, je nach Standort",
       phone: "(siehe Webseite)",
       website: "https://www.4pfoten-paradies.de/",
       description: "Flexibel betreut, familienfreundlich, ideal wenn keine klassische Pension direkt am Berg vorhanden ist."  
