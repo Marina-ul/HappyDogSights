@@ -21,7 +21,7 @@ export const dogPensionsByViewpoint: Record<string, any[]> = {
     }
   ],
 
-  // 📍 Merkur, Baden-Baden
+  // 📍 Merkur, Baden-Baden1
   "bw-2": [
     {
       id: "pension-badenbaden-2",
