@@ -864,7 +864,239 @@ export const dogPensionsByViewpoint: Record<string, any[]> = {
     }
   ],
 
+
+// Brandenburg Hundepensionen für Aussichtspunkte
+  "bb-1": [
+    {
+      id: "hundewelt-greuter",
+      name: "Hundepension Greuter",
+      city: "Rüthnick (Brandenburg)",
+      phone: "-",  
+      website: "https://hundeweltgreuter.de/hundepension",  
+      description: "Großes naturnahes Grundstück mit Rudelhaltung und viel Auslauf."
+    },
+    {
+      id: "hunde-gut-nexdorf",
+      name: "Hunde‑Gut Nexdorf",
+      city: "Nexdorf (Brandenburg)",
+      phone: "035327 / 183 095",  
+      website: "https://hunde-gut.de/",  
+      description: "Pension + Tagesstätte, 24/7 Betreuung, Powerwiese, Obstgarten."
+    }
+  ],
+
+  "bb-2": [
+    {
+      id: "hundepension-wolziger-see",
+      name: "Hundepension am Wolziger See",
+      city: "Blossin / Heidesee (Brandenburg)",
+      phone: "033767‑81350",  
+      website: "https://www.hundepension-am-wolziger-see.de",  
+      description: "Familiäre Pension ohne Zwingerhaltung, max. 5 Hunde gleichzeitig."
+    }
+  ],
+
+  "bb-3": [
+    {
+      id: "pro-dog-kienitz",
+      name: "PRO‑DOG Hundeschule & Hundepension",
+      city: "Groß Kienitz (bei Berlin / Brandenburg)",
+      phone: "033708‑934075",  
+      website: "https://www.hundeschule-pro-dog.de/",  
+      description: "Naturnahe Pension & Tagesstätte mit großzügigen Auslauf‑Flächen."
+    }
+  ],
+
+  "bb-4": [
+    {
+      id: "hundehaus-buhrtz",
+      name: "Hundehaus Buhrtz",
+      city: "Brandenburg (Buhrtz)",  
+      phone: "-",  
+      website: "https://www.hundehaus-buhrtz.de/",  
+      description: "Pension mit Tages‑ & Nachtbetreuung, Bring‑/Holservice."
+    }
+  ],
+
+  "bb-5": [
+    {
+      id: "hunde-gut-nexdorf-2",
+      name: "Hunde‑Gut Nexdorf",
+      city: "Nexdorf (Brandenburg)",  
+      phone: "035327 / 183 095",  
+      website: "https://hunde-gut.de/",  
+      description: "Gleiche Pension wie bei bb‑1, sehr flexibel und naturnah."
+    }
+  ],
+
+  "bb-6": [
+    {
+      id: "tierpension-flaeming",
+      name: "Tierpension Hoher Fläming",
+      city: "Klein Marzehns (Brandenburg)",
+      phone: "033848‑90072",  
+      website: "https://www.tierpension-flaeming.de",  
+      description: "Innenzwinger, überdachter Auslauf & Freilauf – ruhige Landpension."
+    }
+  ],
+
+  "bb-7": [
+    {
+      id: "tierhotel-mamamo",
+      name: "Tierhotel MamaMo",
+      city: "Großbeeren (Brandenburg)",
+      phone: "(siehe Webseite)",  
+      website: "https://tierhotelmamamo.de/service-preise/",  
+      description: "Gute Pension vor den Toren Berlins / Brandenburgs mit naturnaher Umgebung."
+    }
+  ],
+
+  "bb-8": [
+    {
+      id: "tierhotel-mamamo-2",
+      name: "Tierhotel MamaMo",
+      city: "Großbeeren (Brandenburg)",
+      phone: "(siehe Webseite)",  
+      website: "https://tierhotelmamamo.de/",  
+      description: "Geeignet für Ausflüge zum Müggelsee – ruhige Lage, gute Betreuung."
+    }
+  ],
+
+  "bb-9": [
+    {
+      id: "hundepension-wolziger-see-2",
+      name: "Hundepension am Wolziger See",
+      city: "Blossin / Heidesee (Brandenburg)",
+      phone: "033767‑81350",
+      website: "https://www.hundepension-am-wolziger-see.de",
+      description: "Ursprüngliche Pension, auch gut für Ausflüge Richtung Tropical Islands."
+    }
+  ],
+
+  "bb-10": [
+    {
+      id: "hundehaus-buhrtz-2",
+      name: "Hundehaus Buhrtz",
+      city: "Buhrtz / Brandenburg",
+      phone: "-",
+      website: "https://www.hundehaus-buhrtz.de/",
+      description: "Nacht- & Tagesbetreuung, für den nördlichen Teil Brandenburgs nutzbar."
+    }
+  ],
+
+  "bb-11": [
+    {
+      id: "hunde-gut-nexdorf-3",
+      name: "Hunde‑Gut Nexdorf",
+      city: "Nexdorf (Brandenburg)",
+      phone: "035327 / 183 095",
+      website: "https://hunde-gut.de/",
+      description: "Sehr naturnahe Pension, gut geeignet für Ausflüge in Naturreservate wie Peitz."
+    }
+  ],
+
+  "bb-12": [
+    {
+      id: "pro-dog-kienitz-2",
+      name: "PRO-DOG Hundeschule & Pension",
+      city: "Groß Kienitz (Brandenburg)",
+      phone: "033708‑934075",
+      website: "https://www.hundeschule-pro-dog.de/",
+      description: "Pension mit Tages‑ & Übernacht‑Betreuung, erreichbar von Hohenwutzen."
+    }
+  ],
+
+  "bb-13": [
+    {
+      id: "tierpension-flaeming-2",
+      name: "Tierpension Hoher Fläming",
+      city: "Klein Marzehns (Brandenburg)",
+      phone: "033848‑90072",
+      website: "https://www.tierpension-flaeming.de",
+      description: "Landpension, guter Auslauf & naturnahe Lage, geeignet auch für Seenregionen."
+    }
+  ],
+
+  "bb-14": [
+    {
+      id: "hundepension-wolziger-see-3",
+      name: "Hundepension am Wolziger See",
+      city: "Blossin / Heidesee (Brandenburg)",
+      phone: "033767‑81350",
+      website: "https://www.hundepension-am-wolziger-see.de",
+      description: "Alles wie oben, Option für Spreewald‑Region."
+    }
+  ],
+
+  "bb-15": [
+    {
+      id: "hundewelt-greuter-2",
+      name: "Hundepension Greuter",
+      city: "Rüthnick (Brandenburg)",
+      phone: "-",  
+      website: "https://hundeweltgreuter.de/hundepension",  
+      description: "Nahegrenzige Pension, als Option für Ausflüge in die Müritz‑Grenzregion."
+    }
+  ],
+
+  "bb-16": [
+    {
+      id: "hundehaus-buhrtz-3",
+      name: "Hundehaus Buhrtz",
+      city: "Brandenburg",
+      phone: "-",
+      website: "https://www.hundehaus-buhrtz.de/",
+      description: "Große Betreuungs-Pension, auch geeignet für Ausflüge Richtung Eberswalde."
+    }
+  ],
+
+  "bb-17": [
+    {
+      id: "tierhotel-mamamo-3",
+      name: "Tierhotel MamaMo",
+      city: "Großbeeren (Brandenburg)",
+      phone: "(siehe Webseite)",
+      website: "https://tierhotelmamamo.de/",
+      description: "Gut erreichbare Pension für Ausflüge Richtung Rheinsberg."
+    }
+  ],
+
+  "bb-18": [
+    {
+      id: "tierpension-flaeming-3",
+      name: "Tierpension Hoher Fläming",
+      city: "Klein Marzehns (Brandenburg)",
+      phone: "033848‑90072",
+      website: "https://www.tierpension-flaeming.de",
+      description: "Landpension mit Ruhe & Auslauf – gut für Naturregionen wie Stechlin."
+    }
+  ],
+
+  "bb-19": [
+    {
+      id: "hunde-gut-nexdorf-4",
+      name: "Hunde‑Gut Nexdorf",
+      city: "Nexdorf (Brandenburg)",
+      phone: "035327 / 183 095",
+      website: "https://hunde-gut.de/",
+      description: "Pension mit großem Areal, Option auch für Seenregionen in Nordbrandenburg."
+    }
+  ],
+
+  "bb-20": [
+    {
+      id: "hundewelt-greuter-2",
+      name: "Hundepension Greuter",
+      city: "Rüthnick (Brandenburg)",
+      phone: "-",  
+      website: "https://hundeweltgreuter.de/hundepension",  
+      description: "Naturnahe Pension, erreichbar auch vom Havelberg (Brandenburg)."
+    }
+  ],
 };
+
+
+
 
 
 
