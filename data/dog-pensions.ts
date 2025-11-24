@@ -1,4 +1,6 @@
 export const dogPensionsByViewpoint: Record<string, any[]> = {
+  //  Baden-Württemberg
+
   // 📍 Schlossberg, Freiburg
   "bw-1": [
     {
@@ -335,6 +337,269 @@ export const dogPensionsByViewpoint: Record<string, any[]> = {
     description: "Kleine, familiäre Hundepension in Rodalben mit Doppelzimmern, Auslauf und Gruppenhaltung."  
     // Quelle: :contentReference[oaicite:0]{index=0}  
   }
-]
+],
 
+
+  // Bayern
+  // by-1: Zugspitze (Garmisch‑Partenkirchen)
+  "by-1": [
+    {
+      id: "hundehotel-wolf",
+      name: "Hundesporthotel Wolf",
+      city: "Oberammergau",
+      distance: 12, // grob aus Garmisch‑Partenkirchen
+      phone: "+49 8822 9233-0",
+      website: "https://www.hotel-wolf.de/",
+      description: "Großes Hundehotel mit drei Sporthallen, eingezäuntem Außenplatz, Seminaren & Wellness für Hund und Mensch."
+    }
+  ],
+
+  // by-2: Neuschwanstein (Hohenschwangau)
+  "by-2": [
+    {
+      id: "hundepension-satke",
+      name: "Hundepension Satke",
+      city: "Kaltenberg (bei München)",
+      distance: 80,
+      phone: "(siehe Webseite)",
+      website: "https://www.hundehotel-satke.de/hundepension-munchen-steckbrief.html",
+      description: "Pension mit großen, hellen Zimmern, keine Zwinger, sichere, eingezäunte Auslauffläche."
+    }
+  ],
+
+  // by-3: Tegelberg (Neuschwanstein-Region)
+  "by-3": [
+    {
+      id: "hundepension-satke-2",
+      name: "Hundepension Satke (siehe oben)",
+      city: "Kaltenberg / Umgebung",
+      distance: 75,
+      phone: "(siehe Webseite)",
+      website: "https://www.hundehotel-satke.de/",
+      description: "Wie bei by‑2: ruhige Hundepension mit Auslauf‑Wiesen und professioneller Betreuung."
+    }
+  ],
+
+  // by-4: Jenner (Berchtesgaden)
+  "by-4": [
+    {
+      id: "alpenhotel-bergzauber",
+      name: "Alpenhotel Bergzauber",
+      city: "Schönau am Königssee (Berchtesgaden)",
+      distance: 8,
+      phone: "(siehe Webseite)",
+      website: "https://stolls-hotel-alpina.de/aktivurlaub-berchtesgadener-land/urlaub-mit-hund-bayern/",
+      description: "Hundefreundliches Hotel im Berchtesgadener Land mit Auslauf‑Möglichkeiten."
+    }
+  ],
+
+  // by-5: Kehlstein (Berchtesgaden)
+  "by-5": [
+    {
+      id: "alpenhotel-bergzauber-2",
+      name: "Alpenhotel Bergzauber (wie bei Jenner)",
+      city: "Schönau am Königssee",
+      distance: 10,
+      phone: "(siehe Webseite)",
+      website: "https://stolls-hotel-alpina.de/",
+      description: "Hundehotel im Berchtesgadener Land – ideal auch für Ausflüge zum Kehlstein."
+    }
+  ],
+
+  // by-6: Wank (Garmisch)
+  "by-6": [
+    {
+      id: "hundehotel-wolf-2",
+      name: "Hundesporthotel Wolf (wieder)",
+      city: "Oberammergau",
+      distance: 15,
+      phone: "+49 8822 9233-0",
+      website: "https://www.hotel-wolf.de/",
+      description: "Großes Hundehotel mit Sporthallen, ideal auch für Bergregionen rund um Garmisch."
+    }
+  ],
+
+  // by-7: Wallberg (Tegernsee)
+  "by-7": [
+    {
+      id: "hundepension-satke-3",
+      name: "Hundepension Satke (Kaltenberg / Nähe München)",
+      city: "Kaltenberg",
+      distance: 70,
+      phone: "(siehe Webseite)",
+      website: "https://www.hundehotel-satke.de/",
+      description: "Ruhige Pension, geeignet, wenn man im Tegernseer Gebiet unterwegs ist."
+    }
+  ],
+
+  // by-8: Herzogstand (Walchensee)
+  "by-8": [
+    {
+      id: "hundepension-satke-4",
+      name: "Hundepension Satke",
+      city: "Kaltenberg / Umgebung",
+      distance: 90,
+      phone: "(siehe Webseite)",
+      website: "https://www.hundehotel-satke.de/",
+      description: "Gut erreichbare Hundepension auch bei Bergtouren in den Alpen."
+    }
+  ],
+
+  // by-9: Heimgarten (Walchensee)
+  "by-9": [
+    {
+      id: "hundepension-satke-5",
+      name: "Hundepension Satke (wie oben)",
+      city: "Kaltenberg",
+      distance: 90,
+      phone: "(siehe Webseite)",
+      website: "https://www.hundehotel-satke.de/",
+      description: "Stabile Betreuung für den Hund, wenn man in der Walchensee-Region unterwegs ist."
+    }
+  ],
+
+  // by-10: Großer Arber (Bayerischer Wald / Allgäu-Region)
+  "by-10": [
+    {
+      id: "hundehotel-allgaeu",
+      name: "Hundehotel Allgäu Dogs",
+      city: "Durach bei Kempten",
+      distance: 130,
+      phone: "(siehe Webseite)",
+      website: "https://www.hundezentrum-allgaeudogs.de/hundehotel/",
+      description: "Großzügige Anlage mit über 20 Zimmern, eingezäuntem Auslauf, betreut von erfahrenem Hundeprofi."
+    }
+  ],
+
+  // by-11: Hohenbogen (Bayerischer Wald)
+  "by-11": [
+    {
+      id: "hundehotel-bayerwald-1",
+      name: "Landhotel Haus Waldeck",
+      city: "Philippsreut (Bayerischer Wald)",
+      distance: 90,
+      phone: "08557‑729",
+      website: "https://www.bayernreise.eu/unterkunft/hundehotel-bayern-urlaub-mit-hund.html",
+      description: "Hundehotel im Bayerischen Wald mit Trainingsplatz, Spielwiese und eingezäuntem Gelände."
+    }
+  ],
+
+  // by-12: Ochsenkopf (Oberfranken / Fichtelgebirge)
+  "by-12": [
+    {
+      id: "hundepension-satke-6",
+      name: "Hundepension Satke (Kaltenberg / München-Umgebung)",
+      city: "Kaltenberg",
+      distance: 120,
+      phone: "(siehe Webseite)",
+      website: "https://www.hundehotel-satke.de/",
+      description: "Pension mit großzügigen Ausläufen – eine Option, wenn man in Nordbayern unterwegs ist."
+    }
+  ],
+
+  // by-13: Marienbrücke (Hohenschwangau / Neuschwanstein)
+  "by-13": [
+    {
+      id: "hundepension-satke-7",
+      name: "Hundepension Satke",
+      city: "Kaltenberg",
+      distance: 70,
+      phone: "(siehe Webseite)",
+      website: "https://www.hundehotel-satke.de/",
+      description: "Wie bei anderen Schlosswanderungen: ruhige Pension im Umkreis."
+    }
+  ],
+
+  // by-14: Olympiaberg (München)
+  "by-14": [
+    {
+      id: "hundepension-satke-8",
+      name: "Hundepension Satke",
+      city: "Kaltenberg / nahe München",
+      distance: 50,
+      phone: "(siehe Webseite)",
+      website: "https://www.hundehotel-satke.de/",
+      description: "Gute Pension für Hunde, wenn man in München unterwegs ist."
+    }
+  ],
+
+  // by-15: Staffelberg (Bad Staffelstein / Franken)
+  "by-15": [
+    {
+      id: "hundepension-satke-9",
+      name: "Hundepension Satke",
+      city: "Kaltenberg",
+      distance: 200,
+      phone: "(siehe Webseite)",
+      website: "https://www.hundehotel-satke.de/",
+      description: "Relativ weiter Anfahrtsweg, aber eine echte Pension für den Vierbeiner."
+    }
+  ],
+
+  // by-16: Riedberger Horn (Allgäu)
+  "by-16": [
+    {
+      id: "hundehotel-allgaeu-2",
+      name: "Hundehotel Allgäu Dogs (wie oben)",
+      city: "Durach, Allgäu",
+      distance: 80,
+      phone: "(siehe Webseite)",
+      website: "https://www.hundezentrum-allgaeudogs.de/hundehotel/",
+      description: "Professionell geführtes Hundehotel im Allgäu, ideal auch für Bergregionen."
+    }
+  ],
+
+  // by-17: Kloster Andechs (Andechs / Ammersee-Region)
+  "by-17": [
+    {
+      id: "hundepension-satke-10",
+      name: "Hundepension Satke",
+      city: "Kaltenberg",
+      distance: 60,
+      phone: "(siehe Webseite)",
+      website: "https://www.hundehotel-satke.de/",
+      description: "Ruhige und sichere Pension, geeignet bei Ausflügen rund um den Ammersee / Kloster Andechs."
+    }
+  ],
+
+  // by-18: Hohenschwangau Castle (Hohenschwangau / Neuschwanstein)
+  "by-18": [
+    {
+      id: "hundepension-satke-11",
+      name: "Hundepension Satke",
+      city: "Kaltenberg",
+      distance: 70,
+      phone: "(siehe Webseite)",
+      website: "https://www.hundehotel-satke.de/",
+      description: "Wie bei anderen Schloss-Orten: Pension für den Hund in relativ erreichbarer Entfernung."
+    }
+  ],
+
+  // by-19: Nebelhorn (Oberstdorf)
+  "by-19": [
+    {
+      id: "hundehotel-allgaeu-3",
+      name: "Hundehotel Allgäu Dogs",
+      city: "Durach, Allgäu",
+      distance: 35,
+      phone: "(siehe Webseite)",
+      website: "https://www.hundezentrum-allgaeudogs.de/hundehotel/",
+      description: "Großzügige Hundepension mit Auslauf & Betreuung."
+    }
+  ],
+
+  // by-20: Linderhof (Ettal / Ammergau)
+  "by-20": [
+    {
+      id: "hundesporthotel-wolf-2",
+      name: "Hundesporthotel Wolf",
+      city: "Oberammergau",
+      distance: 15,
+      phone: "+49 8822 9233-0",
+      website: "https://www.hotel-wolf.de/",
+      description: "Sport- & Seminarhotel für Hunde & Menschen, ideal als Basis für Ausflüge im Ammergau."
+    }
+  ],
 };
+
+
