@@ -600,6 +600,274 @@ export const dogPensionsByViewpoint: Record<string, any[]> = {
       description: "Sport- & Seminarhotel für Hunde & Menschen, ideal als Basis für Ausflüge im Ammergau."
     }
   ],
+
+
+// Berlin Hundepensionen für Aussichtspunkte
+
+  "be-1": [
+    {
+      id: "hundepension-pankow-weissensee",
+      name: "Hundepension Berlin Weißensee",
+      city: "Berlin Pankow / Weißensee",
+      phone: "030/4729174",
+      website: "https://www.hundepension-berlin.de/",
+      description: "Familiäre Hundepension in Weißensee, ohne Zwinger, mit Garten & Auslauf."
+    },
+    {
+      id: "hundemotel-ludwig",
+      name: "Hundemotel Ludwig",
+      city: "Berlin",
+      phone: "(siehe Webseite)",
+      website: "https://hundemotel-ludwig.de/en/",
+      description: "Exklusive, individuelle Hundebetreuung im Familienstil, ohne Käfige."
+    }
+  ],
+
+  "be-2": [
+    {
+      id: "amicanis",
+      name: "AMICANIS Hundepension & Tagesstätte",
+      city: "Berlin Wilmersdorf",
+      phone: "030-53158292",
+      website: "https://www.amicanis.de/",
+      description: "Großes eingezäuntes Gelände, Urlaubsbetreuung und Tagesstätte."
+    },
+    {
+      id: "pro-dog-kienitz",
+      name: "PRO-DOG Hundeschule & Hundepension",
+      city: "Groß Kienitz (bei Berlin)",
+      phone: "033708-934075",
+      website: "https://www.hundeschule-pro-dog.de/",
+      description: "Naturnahe Pension & Tagesstätte mit großzügigen Auslauf-Flächen."
+    }
+  ],
+
+  "be-3": [
+    {
+      id: "belloberlini",
+      name: "Belloberlini Hundepension & Tagesstätte",
+      city: "Berlin Schöneberg / Kreuzberg",
+      phone: "030-20077360",
+      website: "https://www.belloberlini.com/",
+      description: "Städtische Hundepension & Tagesstätte mit flexibler Bring- und Abholzeit."
+    },
+    {
+      id: "hundepension-pankow-weissensee-2",
+      name: "Hundepension Berlin Weißensee (wie oben)",
+      city: "Berlin Pankow / Weißensee",
+      phone: "030/4729174",
+      website: "https://www.hundepension-berlin.de/",
+      description: "Günstige Hundepension mit Garten – auch für mehrere Tage möglich."
+    }
+  ],
+
+  "be-4": [
+    {
+      id: "four-dogs-hundehotel",
+      name: "Four Dogs Hundehotel",
+      city: "Berlin Niederschöneweide (Treptow-Köpenick)",
+      phone: "+49 30 20339482",
+      website: "https://www.hundehotel.berlin/",
+      description: "Rund-um-die-Uhr Betreuung, großer Auslauf, Übernachtung & Tagesbetreuung."
+    },
+    {
+      id: "hundemotel-ludwig-2",
+      name: "Hundemotel Ludwig",
+      city: "Berlin",
+      phone: "(siehe Webseite)",
+      website: "https://hundemotel-ludwig.de/en/",
+      description: "Kleine, exklusive Boarding-Option nahe Berlin – sehr persönlich & familiär."
+    }
+  ],
+
+  "be-5": [
+    {
+      id: "amicanis-2",
+      name: "AMICANIS Hundepension",
+      city: "Berlin Wilmersdorf",
+      phone: "030-53158292",
+      website: "https://www.amicanis.de/",
+      description: "Gut geeignet für Ausflüge zur Pfaueninsel, verlässliche und etablierte Pension."
+    }
+  ],
+
+  "be-6": [
+    {
+      id: "hundepension-pankow-weissensee-3",
+      name: "Hundepension Berlin Weißensee",
+      city: "Berlin Pankow / Weißensee",
+      phone: "030/4729174",
+      website: "https://www.hundepension-berlin.de/",
+      description: "Zentrale Pension, einfach erreichbar aus Mitte."
+    }
+  ],
+
+  "be-7": [
+    {
+      id: "amicanis-3",
+      name: "AMICANIS Hundepension & Tagesstätte",
+      city: "Berlin Wilmersdorf / Charlottenburg",
+      phone: "030-53158292",
+      website: "https://www.amicanis.de/",
+      description: "Große Stadtpension, geeignet wenn man Schloss Charlottenburg besucht und den Hund gut unterbringen möchte."
+    }
+  ],
+
+  "be-8": [
+    {
+      id: "belloberlini-2",
+      name: "Belloberlini Hundepension & Tagesstätte",
+      city: "Berlin Schöneberg / Wedding",
+      phone: "030-20077360",
+      website: "https://www.belloberlini.com/",
+      description: "Flexibel & zentral, gut erreichbar vom Humboldthain."
+    }
+  ],
+
+  "be-9": [
+    {
+      id: "four-dogs-hundehotel-2",
+      name: "Four Dogs Hundehotel",
+      city: "Berlin Niederschöneweide (Treptow-Köpenick)",
+      phone: "+49 30 20339482",
+      website: "https://www.hundehotel.berlin/",
+      description: "Große Pension mit 24/7 Betreuung, gut geeignet bei Ausflügen in Kreuzberg / Friedrichshain."
+    }
+  ],
+
+  "be-10": [
+    {
+      id: "hundepension-pankow-weissensee-4",
+      name: "Hundepension Berlin Weißensee",
+      city: "Berlin Pankow / Weißensee",
+      phone: "030/4729174",
+      website: "https://www.hundepension-berlin.de/",
+      description: "Weißensee-Pension, gute Option für den Tiergartenbereich."
+    }
+  ],
+
+  "be-11": [
+    {
+      id: "four-dogs-hundehotel-3",
+      name: "Four Dogs Hundehotel",
+      city: "Berlin Niederschöneweide (Treptow-Köpenick)",
+      phone: "+49 30 20339482",
+      website: "https://www.hundehotel.berlin/",
+      description: "Geeignet auch bei Ausflügen an den Müggelsee."
+    }
+  ],
+
+  "be-12": [
+    {
+      id: "four-dogs-hundehotel-4",
+      name: "Four Dogs Hundehotel",
+      city: "Berlin Niederschöneweide",
+      phone: "+49 30 20339482",
+      website: "https://www.hundehotel.berlin/",
+      description: "Große, verlässliche Hundebetreuung mit guter Erreichbarkeit nach Köpenick."
+    }
+  ],
+
+  "be-13": [
+    {
+      id: "hundepension-pankow-weissensee-5",
+      name: "Hundepension Berlin Weißensee",
+      city: "Berlin Pankow / Weißensee",
+      phone: "030/4729174",
+      website: "https://www.hundepension-berlin.de/",
+      description: "Zentrale Stadtpension, auch für Gäste beim Britzer Garten nutzbar."
+    },
+    {
+      id: "hundemotel-ludwig-3",
+      name: "Hundemotel Ludwig",
+      city: "Berlin",
+      phone: "(siehe Webseite)",
+      website: "https://hundemotel-ludwig.de/en/",
+      description: "Intime und persönliche Hundebetreuung, eine Option auch für Neukölln-Ausflüge."
+    }
+  ],
+
+  "be-14": [
+    {
+      id: "belloberlini-3",
+      name: "Belloberlini Hundepension",
+      city: "Berlin Schöneberg / Tempelhof",
+      phone: "030-20077360",
+      website: "https://www.belloberlini.com/",
+      description: "Verlässliche Pension, gut erreichbar bei einem Ausflug zum Tempelhofer Feld."
+    }
+  ],
+
+  "be-15": [
+    {
+      id: "belloberlini-4",
+      name: "Belloberlini Hundepension",
+      city: "Berlin Schöneberg / Kreuzberg",
+      phone: "030-20077360",
+      website: "https://www.belloberlini.com/",
+      description: "Nahe Kreuzberg, geeignet für Spaziergänge entlang des Landwehrkanals."
+    }
+  ],
+
+  "be-16": [
+    {
+      id: "amicanis-4",
+      name: "AMICANIS Hundepension",
+      city: "Berlin Wilmersdorf",
+      phone: "030-53158292",
+      website: "https://www.amicanis.de/",
+      description: "Städtische Pension, erreichbar auch von Spandau."
+    }
+  ],
+
+  "be-17": [
+    {
+      id: "tierhotel-mamamo",
+      name: "Tierhotel MamaMo",
+      city: "Großbeeren / Nähe Berlin",
+      phone: "(siehe Webseite)",
+      website: "https://tierhotelmamomo.de/service-preise/",
+      description: "Große, gut ausgestattete Pension etwas außerhalb Berlins, geeignet auch für Rüdersdorf-Ausflüge."
+    }
+  ],
+
+  "be-18": [
+    {
+      id: "pro-dog-kienitz-2",
+      name: "PRO-DOG Hundepension",
+      city: "Groß Kienitz (bei Berlin/Potsdam)",
+      phone: "033708-934075",
+      website: "https://www.hundeschule-pro-dog.de/",
+      description: "Pension & Tagesstätte in naturnaher Umgebung, relativ gut erreichbar von Potsdam."
+    }
+  ],
+
+  "be-19": [
+    {
+      id: "amicanis-5",
+      name: "AMICANIS Hundepension",
+      city: "Berlin Wilmersdorf / nahe Tegel",
+      phone: "030-53158292",
+      website: "https://www.amicanis.de/",
+      description: "Zentral-liegende Pension, relativ gut erreichbar von Tegel / Tegeler See."
+    }
+  ],
+
+  "be-20": [
+    {
+      id: "four-dogs-hundehotel-5",
+      name: "Four Dogs Hundehotel",
+      city: "Berlin Niederschöneweide",
+      phone: "+49 30 20339482",
+      website: "https://www.hundehotel.berlin/",
+      description: "Gut geeignet für längere Aufenthalte bei Ausflügen an den Müggelsee."
+    }
+  ],
+
 };
+
+
+
+
 
 
