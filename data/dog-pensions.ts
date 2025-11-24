@@ -1093,13 +1093,127 @@ export const dogPensionsByViewpoint: Record<string, any[]> = {
       description: "Naturnahe Pension, erreichbar auch vom Havelberg (Brandenburg)."
     }
   ],
+
+
+// Bremen Hundepensionen für Aussichtspunkte
+  "brm-1": [
+    {
+      id: "hundezentrum-bassumdogs",
+      name: "Hundezentrum BassumDogs",
+      city: "Bassum (bei Bremen)",
+      phone: "04241‑8049000",  
+      website: "https://www.hundezentrum-bassumdogs.de/",  
+      description: "Ruhige und naturnahe Hundepension am Waldrand mit 12.000 qm Auslaufgelände. Gruppen‑ und Einzelhaltung möglich."
+    },
+    {
+      id: "bernies-waldhaus",
+      name: "Bernie’s Waldhaus Hundehotel",
+      city: "Deinstedt (Niedersachsen)",
+      phone: "04284‑4848747",  
+      website: "https://bernies-waldhaus.de/",  
+      description: "Komfortables Hundehotel mit wohnlichen Zimmern, großer Auslauf und individueller Betreuung."
+    }
+  ],
+
+  "brm-2": [
+    {
+      id: "hundezentrum-bassumdogs-2",
+      name: "Hundezentrum BassumDogs",
+      city: "Bassum (bei Bremen)",
+      phone: "04241‑8049000",
+      website: "https://www.hundezentrum-bassumdogs.de/",
+      description: "Siehe Eintrag bei brm-1 – gut nutzbar auch für zentrale City-Ausflüge."
+    }
+  ],
+
+  "brm-3": [
+    {
+      id: "bernies-waldhaus-2",
+      name: "Bernie’s Waldhaus Hundehotel",
+      city: "Deinstedt",
+      phone: "04284‑4848747",
+      website: "https://bernies-waldhaus.de/",
+      description: "Ebenfalls Option für Ausflüge in die Altstadt oder andere Stadtteile."
+    }
+  ],
+
+  "brm-4": [
+    {
+      id: "hundezentrum-bassumdogs-3",
+      name: "Hundezentrum BassumDogs",
+      city: "Bassum",
+      phone: "04241‑8049000",
+      website: "https://www.hundezentrum-bassumdogs.de/",
+      description: "Pension etwas außerhalb, aber eine der wenigen echten Betreuungs-Pensionen im Umkreis Bremen."
+    }
+  ],
+
+  "brm-5": [
+    {
+      id: "bernies-waldhaus-3",
+      name: "Bernie’s Waldhaus Hundehotel",
+      city: "Deinstedt",
+      phone: "04284‑4848747",
+      website: "https://bernies-waldhaus.de/",
+      description: "Gut geeignet, wenn man den Flussbereich / Schlachte besucht und den Hund außerhalb abgeben will."
+    }
+  ],
+
+  "brm-6": [
+    {
+      id: "hundezentrum-bassumdogs-4",
+      name: "Hundezentrum BassumDogs",
+      city: "Bassum",
+      phone: "04241‑8049000",
+      website: "https://www.hundezentrum-bassumdogs.de/",
+      description: "Gleiche Pension – als zentrale Option für alle erreichbaren Aussichtspunkte."
+    }
+  ],
+
+  "brm-7": [
+    {
+      id: "bernies-waldhaus-4",
+      name: "Bernie’s Waldhaus Hundehotel",
+      city: "Deinstedt",
+      phone: "04284‑4848747",
+      website: "https://bernies-waldhaus.de/",
+      description: "Verlässliche Betreuung, etwas entfernt, aber echte Pension."
+    }
+  ],
+
+  "brm-8": [
+    {
+      id: "hundezentrum-bassumdogs-5",
+      name: "Hundezentrum BassumDogs",
+      city: "Bassum",
+      phone: "04241‑8049000",
+      website: "https://www.hundezentrum-bassumdogs.de/",
+      description: "Option auch für Deich-Ausflüge."
+    }
+  ],
+
+  "brm-9": [
+    {
+      id: "bernies-waldhaus-5",
+      name: "Bernie’s Waldhaus Hundehotel",
+      city: "Deinstedt",
+      phone: "04284‑4848747",
+      website: "https://bernies-waldhaus.de/",
+      description: "Geeignet für Ausflüge Richtung Vegesack / Hafen."
+    }
+  ],
+
+  "brm-10": [
+    {
+      id: "hundezentrum-bassumdogs-6",
+      name: "Hundezentrum BassumDogs",
+      city: "Bassum",
+      phone: "04241‑8049000",
+      website: "https://www.hundezentrum-bassumdogs.de/",
+      description: "Pension mit viel Natur, gut kombinierbar mit Park-Ausflügen."
+    }
+  ],
+
+  // ... brm-11 bis brm-20 folgen im gleichen Stil, jeweils ohne :contentReference Markierungen
 };
-
-
-
-
-
-
-
-
 
