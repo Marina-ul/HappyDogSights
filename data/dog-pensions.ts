@@ -1214,6 +1214,469 @@ export const dogPensionsByViewpoint: Record<string, any[]> = {
     }
   ],
 
-  // ... brm-11 bis brm-20 folgen im gleichen Stil, jeweils ohne :contentReference Markierungen
+// Hamburg Hundepensionen für Aussichtspunkte
+  "hh-1": [ // Elbphilharmonie
+    {
+      id: "hundepension-hamburg-trittau",
+      name: "Hundepension Hamburg",
+      city: "Trittau (bei Hamburg)",
+      phone: "04154‑98 699 01",
+      website: "https://hundepension-hamburg.com/",
+      description: "Familiäre Hundepension nahe Hamburg – keine Zwinger, liebevolle Betreuung."  
+    },
+    {
+      id: "hundezentrum-lavendelhof",
+      name: "Hundequartier Lavendelhof",
+      city: "Dammfleth / bei Hamburg",
+      phone: "04823‑9229852",
+      website: "https://hundequartier-lavendelhof.de/",
+      description: "Großer Auslauf, ruhige Hoflage, Übernachtung möglich."  
+    }
+  ],
+
+  "hh-2": [ // Michel Tower
+    {
+      id: "hundepension-hamburg-2",
+      name: "Hundepension Hamburg (wie oben)",
+      city: "Trittau",
+      phone: "04154‑98 699 01",
+      website: "https://hundepension-hamburg.com/",
+      description: "Geeignet auch für die Innenstadt, wenn man von zentralen Aussichtspunkten unterwegs ist."
+    }
+  ],
+
+  "hh-3": [ // Landungsbrücken
+    {
+      id: "daily-dogs-hamburg",
+      name: "Daily Dogs Hundepension",
+      city: "Hamburg Lokstedt",
+      phone: "040 – 570 11 875",
+      website: "https://www.daily-dogs-hamburg.de/",
+      description: "Tages- & Nachtbetreuung, echte Hundepension mit Rudelhaltung und Ruhebereich."  
+    }
+  ],
+
+  "hh-4": [ // Altonaer Balkon
+    {
+      id: "hundepension-hamburg-3",
+      name: "Hundepension Hamburg (Trittau)",
+      city: "Trittau",
+      phone: "04154‑98 699 01",
+      website: "https://hundepension-hamburg.com/",
+      description: "Landpension, gut erreichbar für Ausflüge nach Altona / Elbe."  
+    }
+  ],
+
+  "hh-5": [ // Planten un Blomen
+    {
+      id: "daily-dogs-hamburg-2",
+      name: "Daily Dogs Hundepension",
+      city: "Hamburg Lokstedt",
+      phone: "040 – 570 11 875",
+      website: "https://www.daily-dogs-hamburg.de/",
+      description: "Flexible Betreuung, auch bei Übernachtung, ideal für zentrale Stadtausflüge."  
+    }
+  ],
+
+  "hh-6": [ // Köhlbrand Bridge
+    {
+      id: "hundepension-hamburg-4",
+      name: "Hundepension Hamburg (Trittau)",
+      city: "Trittau",
+      phone: "04154‑98 699 01",
+      website: "https://hundepension-hamburg.com/",
+      description: "Option etwas außerhalb, aber echte pension für längere Tage / Nächte."  
+    }
+  ],
+
+  "hh-7": [ // HafenCity
+    {
+      id: "daily-dogs-hamburg-3",
+      name: "Daily Dogs Hundepension",
+      city: "Hamburg Lokstedt",
+      phone: "040 – 570 11 875",
+      website: "https://www.daily-dogs-hamburg.de/",
+      description: "Zentral genug, um per Auto / kurzem Transfer genutzt zu werden."  
+    }
+  ],
+
+  "hh-8": [ // Blankenese
+    {
+      id: "hundezentrum-lavendelhof-2",
+      name: "Hundequartier Lavendelhof",
+      city: "Dammfleth / gehört zu Hamburg‑Umland",
+      phone: "04823‑9229852",
+      website: "https://hundequartier-lavendelhof.de/",
+      description: "Ländliche Pension, ideal bei Ausflügen ins Elbtreppenviertel."  
+    }
+  ],
+
+  "hh-9": [ // Alsterufer
+    {
+      id: "daily-dogs-hamburg-4",
+      name: "Daily Dogs Hundepension",
+      city: "Hamburg Lokstedt",
+      phone: "040 – 570 11 875",
+      website: "https://www.daily-dogs-hamburg.de/",
+      description: "Gute Option auch für Ausflüge an die Alster."  
+    }
+  ],
+
+  "hh-10": [ // Övelgönne
+    {
+      id: "hundepension-hamburg-5",
+      name: "Hundepension Hamburg (Trittau)",
+      city: "Trittau",
+      phone: "04154‑98 699 01",
+      website: "https://hundepension-hamburg.com/",
+      description: "Eher ländlicher Rückzugsort, gut bei Elbstrand-Ausflügen."  
+    }
+  ],
+
+  "hh-11": [ // Bismarck Monument
+    {
+      id: "hundezentrum-lavendelhof-3",
+      name: "Hundequartier Lavendelhof",
+      city: "Dammfleth",
+      phone: "04823‑9229852",
+      website: "https://hundequartier-lavendelhof.de/",
+      description: "Ruhige, naturnahe Pension, geeignet für Ausflüge zum Elbhöhenbereich."  
+    }
+  ],
+
+  "hh-12": [ // Inselpark (Wilhelmsburg)
+    {
+      id: "daily-dogs-hamburg-5",
+      name: "Daily Dogs Hundepension",
+      city: "Hamburg Lokstedt",
+      phone: "040 – 570 11 875",
+      website: "https://www.daily-dogs-hamburg.de/",
+      description: "Zentral und verlässlich, auch für Ausflüge nach Wilhelmsburg nutzbar."  
+    }
+  ],
+
+  "hh-13": [ // Cranz Beach
+    {
+      id: "hundepension-hamburg-6",
+      name: "Hundepension Hamburg (Trittau)",
+      city: "Trittau",
+      phone: "04154‑98 699 01",
+      website: "https://hundepension-hamburg.com/",
+      description: "Etwas weiter, aber echte Übernachtbetreuung für Strand‑Ausflüge."  
+    }
+  ],
+
+  "hh-14": [ // Rickmer Rickmers (Museumsschiff)
+    {
+      id: "daily-dogs-hamburg-6",
+      name: "Daily Dogs Hundepension",
+      city: "Hamburg Lokstedt",
+      phone: "040 – 570 11 875",
+      website: "https://www.daily-dogs-hamburg.de/",
+      description: "Ideal, wenn man mit dem Hund das Schiffs‑Touristenprogramm besucht."  
+    }
+  ],
+
+  "hh-15": [ // St. Pauli Landungsbrücken
+    {
+      id: "hundepension-hamburg-7",
+      name: "Hundepension Hamburg (Trittau)",
+      city: "Trittau",
+      phone: "04154‑98 699 01",
+      website: "https://hundepension-hamburg.com/",
+      description: "Verlässlicher Ort auch bei Ausflügen zu den Landungsbrücken."  
+    }
+  ],
+
+  "hh-16": [ // Jenischpark
+    {
+      id: "hundezentrum-lavendelhof-4",
+      name: "Hundequartier Lavendelhof",
+      city: "Dammfleth",
+      phone: "04823‑9229852",
+      website: "https://hundequartier-lavendelhof.de/",
+      description: "Ländliche Pension, Ruhe & Natur – gut für Parkbesuche."  
+    }
+  ],
+
+  "hh-17": [ // Museumshafen Övelgönne
+    {
+      id: "daily-dogs-hamburg-7",
+      name: "Daily Dogs Hundepension",
+      city: "Hamburg Lokstedt",
+      phone: "040 – 570 11 875",
+      website: "https://www.daily-dogs-hamburg.de/",
+      description: "Betreuung in Stadt, gute Basis für Hafen‑Ausflüge."  
+    }
+  ],
+
+  "hh-18": [ // Finkenwerder
+    {
+      id: "hundepension-hamburg-8",
+      name: "Hundepension Hamburg (Trittau)",
+      city: "Trittau",
+      phone: "04154‑98 699 01",
+      website: "https://hundepension-hamburg.com/",
+      description: "Etwas weiter außerhalb, aber echte Pension für längere Aufenthalte."  
+    }
+  ],
+
+  "hh-19": [ // Phoenix Viertel
+    {
+      id: "hundezentrum-lavendelhof-5",
+      name: "Hundequartier Lavendelhof",
+      city: "Dammfleth",
+      phone: "04823‑9229852",
+      website: "https://hundequartier-lavendelhof.de/",
+      description: "Ruhige Pensions‑Option auch bei modernen Hafengebiets-Ausflügen."  
+    }
+  ],
+
+  "hh-20": [ // Elbstrand Altona
+    {
+      id: "daily-dogs-hamburg-8",
+      name: "Daily Dogs Hundepension",
+      city: "Hamburg Lokstedt",
+      phone: "040 – 570 11 875",
+      website: "https://www.daily-dogs-hamburg.de/",
+      description: "Zentral, flexibel, geeignet für Elbstrand-Ausflüge."  
+    }
+  ],
+
+// Hessen Hundepensionen für Aussichtspunkte
+  "hs-1": [ // Großer Feldberg (Taunus)
+    {
+      id: "huta-frankfurt",
+      name: "HUTA Frankfurt",
+      city: "Frankfurt am Main",
+      phone: "069 …",  // auf Webseite abfragen
+      website: "https://www.huta-frankfurt.de/",
+      description: "Große Pension & Tagesstätte mit 1.700 m² Auslauf, gut erreichbar vom Taunus."
+    },
+    {
+      id: "the-doghouse",
+      name: "The Doghouse",
+      city: "Schöffengrund (bei Wetzlar / Hessen)",
+      phone: "0151-64445999",
+      website: "https://www.the-doghouse.de/",
+      description: "Professionelles Hundehotel mit vielen Zimmern, viel Auslauf & individueller Betreuung."
+    }
+  ],
+
+  "hs-2": [ // Wilhelmshöhe, Kassel
+    {
+      id: "pawdreams-kassel",
+      name: "PawDreams Hundepension & Tagesstätte",
+      city: "Fuldabrück / Kassel-Umgebung",
+      phone: "0561 …",  // von Webseite
+      website: "https://www.kassel-hundepension.de/",
+      description: "Kleine Gruppe (max. 10 Hunde), ruhiger Außenbereich, Tages- & Urlaubsbetreuung."
+    }
+  ],
+
+  "hs-3": [ // Niederwald, Rüdesheim (Rheingau) – hier wenig Pensions in Hessen passend, daher Nutzung umliegender
+    {
+      id: "wauziparadies",
+      name: "Wauziparadies Hundepension",
+      city: "Neuental (Schwalm-Eder-Kreis)",
+      phone: "06693‑7899160",
+      website: "https://www.wauziparadies.de/",
+      description: "Herzliche Betreuung, maximal 3 Hunde, liebevolle Rudelhaltung."
+    }
+  ],
+
+  "hs-4": [ // Schlossberg Marburg
+    {
+      id: "the-doghouse-2",
+      name: "The Doghouse",
+      city: "Schöffengrund",
+      phone: "0151-64445999",
+      website: "https://www.the-doghouse.de/",
+      description: "Großes Hundehotel, gut erreichbar von Marburg aus."
+    }
+  ],
+
+  "hs-5": [ // Edersee Dam
+    {
+      id: "wauziparadies-2",
+      name: "Wauziparadies Hundepension",
+      city: "Neuental",
+      phone: "06693‑7899160",
+      website: "https://www.wauziparadies.de/",
+      description: "Ruhige ländliche Pension, gut für Ausflüge an den Edersee."
+    }
+  ],
+
+  "hs-6": [ // Hoher Meissner
+    {
+      id: "huta-frankfurt-2",
+      name: "HUTA Frankfurt",
+      city: "Frankfurt am Main",
+      phone: "069 …",
+      website: "https://www.huta-frankfurt.de/",
+      description: "Verlässliche Betreuung auch bei Bergtouren im Werra-/Werratal."
+    }
+  ],
+
+  "hs-7": [ // Hoherodskopf, Vogelsberg
+    {
+      id: "the-doghouse-3",
+      name: "The Doghouse",
+      city: "Schöffengrund",
+      phone: "0151-64445999",
+      website: "https://www.the-doghouse.de/",
+      description: "Gute Option für Ausflüge in den Vogelsberg, auch bei längeren Aufenthalten."
+    }
+  ],
+
+  "hs-8": [ // Domberg Wetzlar
+    {
+      id: "pawdreams-kassel-2",
+      name: "PawDreams Hundepension",
+      city: "Fuldabrück / Kassel-Umgebung",
+      phone: "0561 …",
+      website: "https://www.kassel-hundepension.de/",
+      description: "Ruhige Betreuung, mit großem Außenbereich, auch geeignet bei Wetzlar-Besuchen."
+    }
+  ],
+
+  "hs-9": [ // Felsenmeer, Reichenbach
+    {
+      id: "wauziparadies-3",
+      name: "Wauziparadies Hundepension",
+      city: "Neuental",
+      phone: "06693‑7899160",
+      website: "https://www.wauziparadies.de/",
+      description: "Ländlich gelegen, viel Natur, gut für Ausflüge ins Felsenmeer-Gebiet."
+    }
+  ],
+
+  "hs-10": [ // Weilburg View
+    {
+      id: "the-doghouse-4",
+      name: "The Doghouse",
+      city: "Schöffengrund",
+      phone: "0151-64445999",
+      website: "https://www.the-doghouse.de/",
+      description: "Zuverlässige Pension, auch für Ausflüge zur Lahn / Weilburg nutzbar."
+    }
+  ],
+
+  // Für die restlichen Punkte (hs-11 … hs-20) kann man dieselben Pensionen verwenden, weil die Auswahl begrenzt ist:
+  "hs-11": [
+    {
+      id: "huta-frankfurt-3",
+      name: "HUTA Frankfurt",
+      city: "Frankfurt am Main",
+      phone: "069 …",
+      website: "https://www.huta-frankfurt.de/",
+      description: "Auch bei Ausflügen in den Taunus eine Option für Hundebetreuung."
+    }
+  ],
+
+  "hs-12": [
+    {
+      id: "wauziparadies-4",
+      name: "Wauziparadies Hundepension",
+      city: "Neuental",
+      phone: "06693‑7899160",
+      website: "https://www.wauziparadies.de/",
+      description: "Ruhige Pension, gut kombinierbar mit Ausflügen in den Spessart / Waldgebiet."
+    }
+  ],
+
+  "hs-13": [
+    {
+      id: "pawdreams-kassel-3",
+      name: "PawDreams Hundepension",
+      city: "Fuldabrück / Kassel-Umgebung",
+      phone: "0561 …",
+      website: "https://www.kassel-hundepension.de/",
+      description: "Betreuung mit Herz & Struktur, ideal bei Rhein- / Lahn-Ausflügen (Nähe Hessen)."
+    }
+  ],
+
+  "hs-14": [
+    {
+      id: "wauziparadies-5",
+      name: "Wauziparadies Hundepension",
+      city: "Neuental",
+      phone: "06693‑7899160",
+      website: "https://www.wauziparadies.de/",
+      description: "Ländlich & ruhig – Option für Naturregionen rund um den Edersee."
+    }
+  ],
+
+  "hs-15": [
+    {
+      id: "the-doghouse-5",
+      name: "The Doghouse",
+      city: "Schöffengrund",
+      phone: "0151-64445999",
+      website: "https://www.the-doghouse.de/",
+      description: "Sehr gute Option für die Kurstadt Bad Homburg durch die zentrale Lage in Hessen."
+    }
+  ],
+
+  "hs-16": [
+    {
+      id: "wauziparadies-6",
+      name: "Wauziparadies Hundepension",
+      city: "Neuental",
+      phone: "06693‑7899160",
+      website: "https://www.wauziparadies.de/",
+      description: "Ruhige ländliche Betreuung – ideal für hügelige, naturnahe Regionen."
+    }
+  ],
+
+  "hs-17": [
+    {
+      id: "the-doghouse-6",
+      name: "The Doghouse",
+      city: "Schöffengrund",
+      phone: "0151-64445999",
+      website: "https://www.the-doghouse.de/",
+      description: "Gut erreichbar, wenn du mit Blick auf die Wasserkuppe unterwegs bist."
+    }
+  ],
+
+  "hs-18": [
+    {
+      id: "wauziparadies-7",
+      name: "Wauziparadies Hundepension",
+      city: "Neuental",
+      phone: "06693‑7899160",
+      website: "https://www.wauziparadies.de/",
+      description: "Schöne Pension mit Auslauf, auch bei Seen-Ausflügen wie dem Aartalsee eine Option."
+    }
+  ],
+
+  "hs-19": [
+    {
+      id: "pawdreams-kassel-4",
+      name: "PawDreams Hundepension",
+      city: "Fuldabrück / Kassel",
+      phone: "0561 …",
+      website: "https://www.kassel-hundepension.de/",
+      description: "Komfortable Betreuung, geeignet für Reisen ins Lahntal / Limburg‑Bereich."
+    }
+  ],
+
+  "hs-20": [
+    {
+      id: "huta-frankfurt-4",
+      name: "HUTA Frankfurt",
+      city: "Frankfurt am Main",
+      phone: "069 …",
+      website: "https://www.huta-frankfurt.de/",
+      description: "Zentrale Pension, gut erreichbar bei Ausflügen ins Maintal / Frankfurt-Umgebung."
+    }
+  ],
 };
+
+
+
+
+
+
 
