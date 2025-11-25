@@ -29,47 +29,67 @@ export default function Home() {
     <div className="min-h-screen bg-gradient-to-b from-background to-muted">
       {/* Header */}
       <header className="sticky top-0 z-50 bg-background/95 backdrop-blur border-b border-border">
-  <div className="max-w-7xl mx-auto px-4 py-4 sm:px-6 lg:px-8 flex items-center justify-between">
-    <div>
-      <h1 className="text-2xl font-bold text-primary">Aussichtspunkte.de</h1>
-      <p className="text-sm text-muted-foreground">
-        Schöne Ausblicke & Hundepensionen
-      </p>
-    </div>
+        <div className="max-w-7xl mx-auto px-4 py-4 sm:px-6 lg:px-8 flex items-center justify-between">
+          <div>
+            <h1 className="text-2xl font-bold text-primary">
+              Happy Dog Sights 🐶
+            </h1>
+            <p className="text-sm text-muted-foreground">
+              Schöne Ausblicke & Hundepensionen
+            </p>
+            
+          </div>
 
-    <div className="flex items-center gap-3">
-      <Button variant="outline" size="sm">DE</Button>
-      <ThemeToggle />
-    </div>
-  </div>
-</header>
-
-      {/* Hero Section */}
-      <section className="max-w-7xl mx-auto px-4 py-12 sm:px-6 lg:px-8">
-        <div className="text-center mb-12">
-          <h2 className="text-4xl font-bold text-foreground mb-3">
-            Entdecke Deutschlands schönste Aussichtspunkte
-          </h2>
-          <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Über 320 Aussichtspunkte in 16 Bundesländern. Mit detaillierten
-            Informationen zu Hundepensionen in der Nähe.
-          </p>
-        </div>
-
-        {/* Search Bar */}
-        <div className="mb-12 max-w-md mx-auto">
-          <div className="relative">
-            <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 text-muted-foreground w-5 h-5" />
-            <Input
-              placeholder="Nach Bundesland oder Aussichtspunkt suchen..."
-              value={searchQuery}
-              onChange={(e) => setSearchQuery(e.target.value)}
-              className="pl-10 h-12 bg-white"
-            />
+          <div className="flex items-center gap-3">
+            <Button variant="outline" size="sm">
+              DE
+            </Button>
+            <ThemeToggle />
           </div>
         </div>
+      </header>
 
-        {/* States Grid 4x4 */}
+
+      {/* Hero Section mit HDS.jpg */}
+      <section className="relative w-full h-[320px] sm:h-[420px] lg:h-[520px] overflow-hidden">
+        <img
+          src="/HDS.jpg"
+          alt="Hero Bild"
+          className="absolute inset-0 w-full h-full object-cover"
+        />
+        {/* Dunkles Overlay für bessere Lesbarkeit */}
+        <div className="absolute inset-0 bg-black/40" />
+
+        <div className="relative z-10 max-w-7xl mx-auto h-full px-4 sm:px-6 lg:px-8 flex flex-col justify-center">
+          <div className="max-w-xl">
+            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-4 drop-shadow-md">
+              Entdecke Deutschlands schönste Aussichtspunkte mit deinem Hund
+            </h2>
+            
+            <p className="text-base sm:text-lg text-gray-100 mb-6 drop-shadow">
+              Über 320 Aussichtspunkte in 16 Bundesländern mit Informationen zu
+              Hundepensionen in der Nähe.
+            </p>
+
+            {/* Search Bar im Hero */}
+            <div className="max-w-md">
+              <div className="relative">
+                <Search className="absolute left-3 top-1/2 -translate-y-1/2 text-muted-foreground w-5 h-5" />
+                <Input
+                  placeholder="Nach Bundesland oder Aussichtspunkt suchen..."
+                  value={searchQuery}
+                  onChange={(e) => setSearchQuery(e.target.value)}
+                  className="pl-10 h-12 bg-white/95 backdrop-blur text-foreground"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* States Grid 4x4 */}
+      
+      <section className="max-w-7xl mx-auto px-4 py-12 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
           {filteredStates.map((state) => (
             <Link key={state.name} href={`/bundesland/${state.name}`}>
@@ -196,7 +216,9 @@ export default function Home() {
             <Link href="#" className="hover:text-foreground transition-colors">
               Kontakt
             </Link>
+            
           </nav>
+          
         </div>
       </footer>
     </div>
