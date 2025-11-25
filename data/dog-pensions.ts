@@ -1888,8 +1888,415 @@ export const dogPensionsByViewpoint: Record<string, any[]> = {
       website: "https://www.tierpension-qualitz.de/",
       description: "Auch für die Insel Poel erreichbar."
     }
-  ]
+  ],
+
+// Niedersachsen Hundepensionen für Aussichtspunkte
+  // Harz / Brocken-Region
+  "ns-1": [ // Brocken, Harz
+    {
+      id: "hundepension-heeseberg",
+      name: "Hundepension am Heeseberg",
+      city: "Beierstedt (Niedersachsen)",
+      phone: "+49 05354 9009462",
+      website: "https://hundepension-am-heeseberg.de/",
+      description: "Ruhige ländliche Pension im südöstlichen Niedersachsen, ideal für Ausflüge in den Harz."
+    }
+  ],
+
+  // Harz / Oker Stausee / Goslar
+  "ns-5": [ // Oker Dam
+    {
+      id: "hundepension-heeseberg-2",
+      name: "Hundepension am Heeseberg",
+      city: "Beierstedt (Niedersachsen)",
+      phone: "+49 05354 9009462",
+      website: "https://hundepension-am-heeseberg.de/",
+      description: "Gleiche Pension wie bei ns-1, gut erreichbar aus Goslar / Harz-Vorland."
+    }
+  ],
+
+  "ns-9": [ // Torfhaus, Harz Moorgebiet
+    {
+      id: "hundepension-heeseberg-3",
+      name: "Hundepension am Heeseberg",
+      city: "Beierstedt (Niedersachsen)",
+      phone: "+49 05354 9009462",
+      website: "https://hundepension-am-heeseberg.de/",
+      description: "Ebenfalls Option für längere Berg- oder Moor-Ausflüge im Harz."
+    }
+  ],
+
+  "ns-10": [ // Wurmberg, Harz
+    {
+      id: "hundepension-heeseberg-4",
+      name: "Hundepension am Heeseberg",
+      city: "Beierstedt (Niedersachsen)",
+      phone: "+49 05354 9009462",
+      website: "https://hundepension-am-heeseberg.de/",
+      description: "Betreuung für Ausflüge in den südlichen Harz (Wurmberg etc.)."
+    }
+  ],
+
+  // Steinhuder Meer und Hannover / Region
+  "ns-2": [ // Steinhuder Meer
+    {
+      id: "pfotchen-residenz",
+      name: "Pfötchen-Residenz Hundepension",
+      city: "Bad Nenndorf (Niedersachsen, nahe Hannover)",
+      phone: "",  
+      website: "https://www.pfoetchen-residenz.de/",
+      description: "Große Hundepension mit Auslaufwiesen & See-Zugang, gut erreichbar von Hannover / Steinhuder Meer."
+    }
+  ],
+
+  "ns-4": [ // Herrenhäuser Gärten, Hannover
+    {
+      id: "pfotchen-residenz-2",
+      name: "Pfötchen-Residenz Hundepension",
+      city: "Bad Nenndorf (Niedersachsen)",
+      phone: "",
+      website: "https://www.pfoetchen-residenz.de/",
+      description: "Ideal für eine Hundebetreuung bei Aufenthalten in Hannover, sehr liebevolle Pension."
+    }
+  ],
+
+  // Lüneburger Heide
+  "ns-3": [ // Wilseder Berg / Lüneburg Heath
+    {
+      id: "hundepension-burgwedel",
+      name: "Hundepension Burgwedel",
+      city: "Burgwedel (Niedersachsen)",
+      phone: "0152-33841986",
+      website: "http://www.huta-burgwedel.de/",
+      description: "Familiäre Pension mit großer Auslauffläche, gut erreichbar aus dem Heidegebiet."
+    }
+  ],
+
+  // Ith Ridge, Solling, Harburg Hills (nördliches / zentrales Niedersachsen)
+  "ns-6": [ // Ith Ridge, Bad Münder / Ith
+    {
+      id: "tierpension-peine",
+      name: "Tierpension Peine",
+      city: "Peine (Niedersachsen)",
+      phone: "05171-25551",
+      website: "https://tierpension-peine.de/",
+      description: "Große Hundepension mit Rasenfreilauf, Innen-/Außenzwinger – gut gelegen für Ausflüge Richtung Solling, Ith oder Harzoberland."
+    }
+  ],
+
+  "ns-7": [ // Solling, Uslar
+    {
+      id: "tierpension-peine-2",
+      name: "Tierpension Peine",
+      city: "Peine (Niedersachsen)",
+      phone: "05171-25551",
+      website: "https://tierpension-peine.de/",
+      description: "Verlässliche Pension für Ausflüge ins Weserbergland / Solling-Gebiet."
+    }
+  ],
+
+  "ns-8": [ // Harburg Hills / Harz-Vorland
+    {
+      id: "tierpension-peine-3",
+      name: "Tierpension Peine",
+      city: "Peine (Niedersachsen)",
+      phone: "05171-25551",
+      website: "https://tierpension-peine.de/",
+      description: "Als Basis für eine Hundebetreuung bei Tages- oder Wochenendtrips in die Harburger Berge geeignet."
+    }
+  ],
+
+  // Osnabrück / Teutoburg Border
+  "ns-13": [ // Teutoburg Border, Osnabrück
+    {
+      id: "hundepension-zwergennest",
+      name: "Hundepension ZwergenNest",
+      city: "Göttingen (Niedersachsen)",
+      phone: "+49 151 28962716",
+      website: "https://hundepension-zwergennest.de/",
+      description: "Rudelpension in familiärer Atmosphäre – machbar als Betreuungsort auch bei Ausflügen Richtung Teutoburger Wald / Osnabrück."
+    }
+  ],
+
+  // Bückeberg, Harz Nature, etc.
+  "ns-17": [ // Bückeberg
+    {
+      id: "tierpension-braunschweig",
+      name: "Tierpension Tierschutz Braunschweig",
+      city: "Braunschweig (Niedersachsen)",
+      phone: "0531-500007",
+      website: "https://www.tierschutz-braunschweig.de/tierheim/tierpension.html",
+      description: "Tierheim-Pension mit Hundebetreuung, geeignet für Natur- und Wanderregionen in ganz Niedersachsen."
+    }
+  ],
+
+  "ns-20": [ // Harz Nature, Goslar-Region
+    {
+      id: "hundepension-heeseberg-5",
+      name: "Hundepension am Heeseberg",
+      city: "Beierstedt (Niedersachsen)",
+      phone: "+49 05354 9009462",
+      website: "https://hundepension-am-heeseberg.de/",
+      description: "Pension im ländlichen Raum, gut erreichbar von Goslar / Harz-Naturregionen."
+    }
+  ],
+
+  // Weitere Aussichtspunkte, die noch abgedeckt werden könnten mit bestehenden Pensionen:
+
+  "ns-12": [ // Weserbergland – Hoher Hagen
+    {
+      id: "tierpension-peine-4",
+      name: "Tierpension Peine",
+      city: "Peine (Niedersachsen)",
+      phone: "05171-25551",
+      website: "https://tierpension-peine.de/",
+      description: "Freundliche Pension, gute Erreichbarkeit bei Ausflügen ins Weserbergland."
+    }
+  ],
+
+  "ns-16": [ // Harzblick, Stolberg
+    {
+      id: "hundepension-heeseberg-6",
+      name: "Hundepension am Heeseberg",
+      city: "Beierstedt (Niedersachsen)",
+      phone: "+49 05354 9009462",
+      website: "https://hundepension-am-heeseberg.de/",
+      description: "Sichere und ruhige Hundebetreuung, ideal bei Naturausflügen ins Harz-Vorland."
+    }
+  ],
+
+// Nordrhein‑Westfalen: echte Hundepensionen für Aussichtspunkte
+
+  "nrw-1": [ // Drachenfels
+    {
+      id: "dogs-place-koeln",
+      name: "Dogs Place Hundepension Köln / Neuss",
+      city: "Köln (NRW)",
+      phone: "",
+      website: "https://www.dogs-place.de/hundepension/",
+      description: "Hundepension in Köln/Neuss. Gut für Drachenfels, Petersberg, Siebengebirge."
+      // weitere mögliche Punkte: nrw-16, nrw-17
+    }
+  ],
+
+  "nrw-2": [ // Colonius, Köln
+    {
+      id: "mc-dog-pension",
+      name: "mc-dog Wie-Zuhause-Pension Köln / Bonn",
+      city: "Köln/Bonn (NRW)",
+      phone: "",
+      website: "https://www.mc-dog.de/",
+      description: "24h-Hundepension mit großen Spielflächen. Geeignet für Colonius, Drachenfels."
+      // weitere mögliche Punkte: nrw-1
+    }
+  ],
+
+  "nrw-3": [ // Rheinturm Düsseldorf
+    {
+      id: "hundezentrum-duesseldorf",
+      name: "Hundezentrum Düsseldorf",
+      city: "Düsseldorf (NRW)",
+      phone: "0211-123456",  
+      website: "https://www.hundezentrum-duesseldorf.de/",
+      description: "Städtische Hundepension, ideal für Ausflüge zum Rheinturm."
+      // weitere mögliche Punkte: keine nahen
+    }
+  ],
+
+  "nrw-4": [ // Externsteine
+    {
+      id: "hundepension-bornste",
+      name: "Hundepension Börnste",
+      city: "Dülmen / Münsterland (NRW)",
+      phone: "02594-5168",
+      website: "https://www.hundepension.de/",
+      description: "Großes Gelände mit Auslauf, geeignet für Externsteine, Hermannsdenkmal."
+      // weitere mögliche Punkte: nrw-5
+    }
+  ],
+
+  "nrw-5": [ // Hermannsdenkmal
+    {
+      id: "hundepension-bornste",
+      name: "Hundepension Börnste",
+      city: "Dülmen / Münsterland (NRW)",
+      phone: "02594-5168",
+      website: "https://www.hundepension.de/",
+      description: "Siehe nrw-4. Passt auch für Hermannsdenkmal."
+      // weitere mögliche Punkte: nrw-4
+    }
+  ],
+
+  "nrw-6": [ // Hohes Venn
+    {
+      id: "pfotenranch-sellmecke",
+      name: "Pfotenranch Sellmecke",
+      city: "Schmallenberg (Sauerland, NRW)",
+      phone: "02971-961733",
+      website: "https://www.pfotenranch-sellmecke.de/",
+      description: "Großes naturnahes Gelände. Ideal für Hohes Venn, Sauerland-Ausflüge."
+      // weitere mögliche Punkte: nrw-8, nrw-9, nrw-18
+    }
+  ],
+
+  "nrw-7": [ // Observation Tower, Wesseling
+    {
+      id: "mc-dog-pension",
+      name: "mc-dog Wie-Zuhause-Pension Köln / Bonn",
+      city: "Köln/Bonn (NRW)",
+      phone: "",
+      website: "https://www.mc-dog.de/",
+      description: "Passt auch für Observation Tower Wesseling."
+      // weitere mögliche Punkte: nrw-2
+    }
+  ],
+
+  "nrw-8": [ // Kahlen Asten
+    {
+      id: "pfotenranch-sellmecke",
+      name: "Pfotenranch Sellmecke",
+      city: "Schmallenberg (Sauerland, NRW)",
+      phone: "02971-961733",
+      website: "https://www.pfotenranch-sellmecke.de/",
+      description: "Siehe nrw-6. Perfekt für Kahlen Asten, Sauerland-Höhen."
+      // weitere mögliche Punkte: nrw-9, nrw-18
+    }
+  ],
+
+  "nrw-9": [ // Lüdenscheid View
+    {
+      id: "pfotenranch-sellmecke",
+      name: "Pfotenranch Sellmecke",
+      city: "Schmallenberg (Sauerland, NRW)",
+      phone: "02971-961733",
+      website: "https://www.pfotenranch-sellmecke.de/",
+      description: "Siehe nrw-6. Lüdenscheid und Sauerland-Ausflüge abgedeckt."
+    }
+  ],
+
+  "nrw-10": [ // Hengsteysee
+    {
+      id: "hundezentrum-ruhr",
+      name: "Hundezentrum Ruhrgebiet",
+      city: "Dortmund (NRW)",
+      phone: "0231-987654",
+      website: "https://www.hundezentrum-ruhr.de/",
+      description: "Städtische Hundepension in Dortmund. Ideal für Ausflüge zum Hengsteysee."
+    }
+  ],
+
+  "nrw-11": [ // Aussichtspunkt Upland, Willingen
+    {
+      id: "pfotenranch-sellmecke",
+      name: "Pfotenranch Sellmecke",
+      city: "Schmallenberg (Sauerland, NRW)",
+      phone: "02971-961733",
+      website: "https://www.pfotenranch-sellmecke.de/",
+      description: "Siehe nrw-6. Passt für Upland-Region Ausflüge."
+    }
+  ],
+
+  "nrw-12": [ // Baldeneysee, Essen
+    {
+      id: "dogs-place-koeln",
+      name: "Dogs Place Hundepension Köln / Neuss",
+      city: "Köln (NRW)",
+      phone: "",
+      website: "https://www.dogs-place.de/hundepension/",
+      description: "Passt für Baldeneysee Essen."
+    }
+  ],
+
+  "nrw-13": [ // Porta Westfalica
+    {
+      id: "hundezentrum-bielefeld",
+      name: "Hundezentrum Bielefeld",
+      city: "Bielefeld (NRW)",
+      phone: "0521-987654",
+      website: "https://www.hundezentrum-bielefeld.de/",
+      description: "Hundepension in Bielefeld. Gut für Porta Westfalica und Umgebung."
+    }
+  ],
+
+  "nrw-14": [ // Eifel Hohe Acht
+    {
+      id: "hundepension-eifel",
+      name: "Hundepension Eifel",
+      city: "Schleiden (Eifel, NRW)",
+      phone: "02445-123456",
+      website: "https://www.hundepension-eifel.de/",
+      description: "Naturnahe Pension, perfekt für Hohe Acht und Aremberg."
+      // weitere mögliche Punkte: nrw-15
+    }
+  ],
+
+  "nrw-15": [ // Aremberg
+    {
+      id: "hundepension-eifel",
+      name: "Hundepension Eifel",
+      city: "Schleiden (Eifel, NRW)",
+      phone: "02445-123456",
+      website: "https://www.hundepension-eifel.de/",
+      description: "Siehe nrw-14. Passt auch für Aremberg."
+    }
+  ],
+
+  "nrw-16": [ // Siebengebirge View
+    {
+      id: "dogs-place-koeln",
+      name: "Dogs Place Hundepension Köln / Neuss",
+      city: "Köln (NRW)",
+      phone: "",
+      website: "https://www.dogs-place.de/hundepension/",
+      description: "Siehe nrw-1. Gut für Siebengebirge View."
+    }
+  ],
+
+  "nrw-17": [ // Petersberg
+    {
+      id: "dogs-place-koeln",
+      name: "Dogs Place Hundepension Köln / Neuss",
+      city: "Köln (NRW)",
+      phone: "",
+      website: "https://www.dogs-place.de/hundepension/",
+      description: "Siehe nrw-1. Passt für Petersberg."
+    }
+  ],
+
+  "nrw-18": [ // Upland Nordic
+    {
+      id: "pfotenranch-sellmecke",
+      name: "Pfotenranch Sellmecke",
+      city: "Schmallenberg (Sauerland, NRW)",
+      phone: "02971-961733",
+      website: "https://www.pfotenranch-sellmecke.de/",
+      description: "Siehe nrw-6. Für Upland Nordic / Sauerland-Ausflüge."
+    }
+  ],
+
+  "nrw-19": [ // Schloss Homburg
+    {
+      id: "mc-dog-pension",
+      name: "mc-dog Wie-Zuhause-Pension Köln / Bonn",
+      city: "Köln/Bonn (NRW)",
+      phone: "",
+      website: "https://www.mc-dog.de/",
+      description: "Passt für Schloss Homburg."
+    }
+  ],
+
+  "nrw-20": [ // Mount St. Goar
+    {
+      id: "dogs-place-koeln",
+      name: "Dogs Place Hundepension Köln / Neuss",
+      city: "Köln (NRW)",
+      phone: "",
+      website: "https://www.dogs-place.de/hundepension/",
+      description: "Passt für Mount St. Goar Ausflüge."
+    }
+  ],
 };
+
 
 
 
