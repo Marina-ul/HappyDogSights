@@ -1672,7 +1672,230 @@ export const dogPensionsByViewpoint: Record<string, any[]> = {
       description: "Zentrale Pension, gut erreichbar bei Ausflügen ins Maintal / Frankfurt-Umgebung."
     }
   ],
+
+
+// Mecklenburg-Vorpommern Hundepensionen für Aussichtspunkte
+  
+  // ------------------- REGION RÜGEN & OSTSEE -------------------
+
+  "mv-1": [
+    {
+      id: "hundehotel-ruegen",
+      name: "Hundehotel & -pension Insel Rügen",
+      city: "Dreschvitz (Rügen)",
+      phone: "0173-2362860",
+      website: "https://www.hundehotel-ruegen.de/",
+      description: "Hundepension direkt auf Rügen – ideal für Königsstuhl, Kap Arkona, Sellin & Hiddensee."
+    }
+  ],
+  "mv-3": [
+    {
+      id: "hundehotel-ruegen",
+      name: "Hundehotel & -pension Insel Rügen",
+      city: "Dreschvitz (Rügen)",
+      phone: "0173-2362860",
+      website: "https://www.hundehotel-ruegen.de/",
+      description: "Perfekt für einen Ausflug zum Kap Arkona."
+    }
+  ],
+  "mv-4": [
+    {
+      id: "hundehotel-ruegen",
+      name: "Hundehotel & -pension Insel Rügen",
+      city: "Dreschvitz (Rügen)",
+      phone: "0173-2362860",
+      website: "https://www.hundehotel-ruegen.de/",
+      description: "Für Besuche der Selliner Seebrücke bestens geeignet."
+    }
+  ],
+  "mv-7": [
+    {
+      id: "hundehotel-ruegen",
+      name: "Hundehotel & -pension Insel Rügen",
+      city: "Dreschvitz (Rügen)",
+      phone: "0173-2362860",
+      website: "https://www.hundehotel-ruegen.de/",
+      description: "Auch ideal für Hiddensee-Besucher."
+    }
+  ],
+  "mv-20": [
+    {
+      id: "hundehotel-ruegen",
+      name: "Hundehotel & -pension Insel Rügen",
+      city: "Dreschvitz (Rügen)",
+      phone: "0173-2362860",
+      website: "https://www.hundehotel-ruegen.de/",
+      description: "Praktisch für Süd-Rügen Sehenswürdigkeiten."
+    }
+  ],
+
+  // ------------------- REGION USEDOM -------------------
+
+  "mv-5": [
+    {
+      id: "tierpension-usedom",
+      name: "Hundepension & Tierpension Usedom",
+      city: "Bansin / Heringsdorf",
+      phone: "0152-21938467",
+      website: "https://www.tierpension-usedom.de/",
+      description: "Direkt auf Usedom – ideal für Naturgebiete und Dünenwanderungen."
+    }
+  ],
+  "mv-19": [
+    {
+      id: "tierpension-usedom",
+      name: "Hundepension & Tierpension Usedom",
+      city: "Bansin / Heringsdorf",
+      phone: "0152-21938467",
+      website: "https://www.tierpension-usedom.de/",
+      description: "Nahe der Usedom-Hügel."
+    }
+  ],
+
+  // ------------------- REGION ROSTOCK / WARNEMÜNDE -------------------
+
+  "mv-10": [
+    {
+      id: "tierpension-blank",
+      name: "Tierpension Blank",
+      city: "Roggentin (Rostock)",
+      phone: "038204-76832",
+      website: "https://www.tierpension-blank.de/",
+      description: "Seriöse Pension bei Rostock – ideal für Warnemünde & Küstenziele."
+    }
+  ],
+
+  "mv-12": [
+    {
+      id: "tierpension-blank",
+      name: "Tierpension Blank",
+      city: "Roggentin (Rostock)",
+      phone: "038204-76832",
+      website: "https://www.tierpension-blank.de/",
+      description: "Perfekt für Rostock & Umgebung."
+    }
+  ],
+
+  "mv-8": [
+    {
+      id: "tierpension-blank",
+      name: "Tierpension Blank",
+      city: "Roggentin (Rostock)",
+      phone: "038204-76832",
+      website: "https://www.tierpension-blank.de/",
+      description: "Geeignet für Darß / Weststrand / Prerow."
+    }
+  ],
+
+  "mv-17": [
+    {
+      id: "tierpension-blank",
+      name: "Tierpension Blank",
+      city: "Roggentin (Rostock)",
+      phone: "038204-76832",
+      website: "https://www.tierpension-blank.de/",
+      description: "Auch für Darßer Ort / Leuchtturm."
+    }
+  ],
+
+  // ------------------- REGION SCHWERIN / PARCHIM -------------------
+
+  "mv-2": [
+    {
+      id: "tierpension-mecklenburg",
+      name: "Tierpension Mecklenburg",
+      city: "Brunow / Parchim",
+      phone: "038721-228177",
+      website: "https://www.tierpension-mecklenburg.de/tierpension.htm",
+      description: "Hundepension im Süden von MV – gute Option für Schwerin."
+    }
+  ],
+
+  "mv-13": [
+    {
+      id: "tierpension-mecklenburg",
+      name: "Tierpension Mecklenburg",
+      city: "Brunow / Parchim",
+      phone: "038721-228177",
+      website: "https://www.tierpension-mecklenburg.de/tierpension.htm",
+      description: "Auch nutzbar für Burg Stargard."
+    }
+  ],
+
+  "mv-18": [
+    {
+      id: "tierpension-mecklenburg",
+      name: "Tierpension Mecklenburg",
+      city: "Brunow / Parchim",
+      phone: "038721-228177",
+      website: "https://www.tierpension-mecklenburg.de/tierpension.htm",
+      description: "Geeignet für Schwaan & nähere Umgebung."
+    }
+  ],
+
+  // ------------------- REGION MÜRITZ / SEENPLATTE -------------------
+
+  "mv-6": [
+    {
+      id: "tierpension-qualitz",
+      name: "Tierpension Qualitz",
+      city: "Krakow am See",
+      phone: "0151-40166613",
+      website: "https://www.tierpension-qualitz.de/",
+      description: "Ruhige Landpension – ideal für Müritz & Naturparkregion."
+    }
+  ],
+
+  "mv-14": [
+    {
+      id: "tierpension-qualitz",
+      name: "Tierpension Qualitz",
+      city: "Krakow am See",
+      phone: "0151-40166613",
+      website: "https://www.tierpension-qualitz.de/",
+      description: "Nähe von Teterow – gute Option."
+    }
+  ],
+
+  "mv-15": [
+    {
+      id: "tierpension-qualitz",
+      name: "Tierpension Qualitz",
+      city: "Krakow am See",
+      phone: "0151-40166613",
+      website: "https://www.tierpension-qualitz.de/",
+      description: "Gnoien liegt ebenfalls gut erreichbar."
+    }
+  ],
+
+  "mv-16": [
+    {
+      id: "tierpension-qualitz",
+      name: "Tierpension Qualitz",
+      city: "Krakow am See",
+      phone: "0151-40166613",
+      website: "https://www.tierpension-qualitz.de/",
+      description: "Geeignet für Kranich-Beobachtung Vorpommern."
+    }
+  ],
+
+  "mv-11": [
+    {
+      id: "tierpension-qualitz",
+      name: "Tierpension Qualitz",
+      city: "Krakow am See",
+      phone: "0151-40166613",
+      website: "https://www.tierpension-qualitz.de/",
+      description: "Auch für die Insel Poel erreichbar."
+    }
+  ]
 };
+
+
+
+
+
+
 
 
 
