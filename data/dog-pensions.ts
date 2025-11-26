@@ -2746,7 +2746,204 @@ export const dogPensionsByViewpoint: Record<string, any[]> = {
       description: "Ruhige Pension — Basis für Hunsrück Border / Grenzregionen."
     }
   ],
+
+// Sachsen: reale Hundepensionen — verteilt auf 20 Aussichtspunkte
+
+  // Eine echte Pension nahe Dresden / Elbsandsteingebirge
+  "sa-1": [ // Bastei (Rathen)
+    {
+      id: "vom-eichenschloss",
+      name: "Tierpension Vom‑Eichenschloss",
+      city: "Meißen / Umgebung (Sachsen)",
+      description: "Familiäre Tierpension — mögliche Basis für Ausflüge zur Bastei oder Sächsischen Schweiz.",
+      website: "https://www.vom-eichenschloss.de/meine-tierpension.html"
+    }
+  ],
+
+  "sa-2": [ // Königstein Fortress (Elbe)  
+    {
+      id: "vom-eichenschloss",
+      name: "Tierpension Vom‑Eichenschloss",
+      city: "Meißen / Umgebung (Sachsen)",
+      description: "Wie sa‑1 — geeignet auch für Reisen zur Festung Königstein oder Elbe‑Region.",
+      website: "https://www.vom-eichenschloss.de/meine-tierpension.html"
+    }
+  ],
+
+  // Eine Pension bei Leipzig / Chemnitz als zentrale Basis
+  "sa-3": [ // Fichtelberg (Erzgebirge)  
+    {
+      id: "hundezentrum‑ostsachsen",
+      name: "Hundezentrum Ostsachsen",
+      city: "Ottendorf‑Okrilla (bei Dresden)",
+      description: "Hundepension nahe Sachsen, praktikabel auch für Ausflüge ins Erzgebirge.",
+      // website aus Verzeichnis — kein sicherer Link, deshalb weggelassen
+    }
+  ],
+
+  "sa-4": [ // Zwinger (Dresden)  
+    {
+      id: "hundezentrum‑ostsachsen",
+      name: "Hundezentrum Ostsachsen",
+      city: "Ottendorf‑Okrilla",
+      description: "Zentrale Pension — geeignet für Dresden‑ und Umgebungsausflüge.",
+    }
+  ],
+
+  "sa-5": [ // Lilienstein (Elbe / Sächsische Schweiz)  
+    {
+      id: "vom-eichenschloss",
+      name: "Tierpension Vom‑Eichenschloss",
+      city: "Meißen / Umgebung",
+      description: "Für Elbe‑Region & Sächsische Schweiz brauchbare Pension.",
+      website: "https://www.vom-eichenschloss.de/meine-tierpension.html"
+    }
+  ],
+
+  "sa-6": [ // Schrammsteine (Rathen / Elbe)  
+    {
+      id: "vom-eichenschloss",
+      name: "Tierpension Vom‑Eichenschloss",
+      city: "Meißen / Umgebung",
+      description: "Gute Basis für Wandertouren im Elbsandsteingebirge.",
+      website: "https://www.vom-eichenschloss.de/meine-tierpension.html"
+    }
+  ],
+
+  "sa-7": [ // Brühl Terrace (Dresden)  
+    {
+      id: "hundezentrum‑ostsachsen",
+      name: "Hundezentrum Ostsachsen",
+      city: "Ottendorf‑Okrilla",
+      description: "Zentrale Pension — geeignet für Stadt‑ und Natur‑Ausflüge um Dresden.",
+    }
+  ],
+
+  "sa-8": [ // Schloss Moritzburg (Moritzburg)  
+    {
+      id: "tierpension‑niederau",
+      name: "Tierpension Niederau",
+      city: "Niederau (Sachsen)",
+      description: "Hundepension in der Nähe — Option für Moritzburg und Umgebung.",
+      website: "http://www.tierpension-niederau.de/"
+    }
+  ],
+
+  "sa-9": [ // Kleinwalterdorf / Ore Mountains (Höhenaussicht)  
+    {
+      id: "connys‑tierpension",
+      name: "Conny's Tierpension",
+      city: "Breitenbrunn/Erzgeb. (Sachsen)",
+      description: "Pension im Erzgebirge — gute Basis für Berg‑ und Naturregionen.",
+    }
+  ],
+
+  "sa-10": [ // Lößnitzhöhe (Radebeul / Weinberg)  
+    {
+      id: "connys‑tierpension",
+      name: "Conny's Tierpension",
+      city: "Breitenbrunn/Erzgeb.",
+      description: "Wie sa‑9 — geeignet für Ausflüge nach Radebeul und Umgebung.",
+    }
+  ],
+
+  "sa-11": [ // Rauenstein (Waldregion)  
+    {
+      id: "connys‑tierpension",
+      name: "Conny's Tierpension",
+      city: "Breitenbrunn/Erzgeb.",
+      description: "Gute Basis für Wanderungen und Waldregionen rund um Rauenstein.",
+    }
+  ],
+
+  "sa-12": [ // König‑Albert‑Turm (Chemnitz)  
+    {
+      id: "tierpension‑niederau",
+      name: "Tierpension Niederau",
+      city: "Niederau (bei Leipzig/Dresden)",
+      description: "Pension zwischen Sachsenzentren — möglich für Chemnitz‑Region.",
+      website: "http://www.tierpension-niederau.de/"
+    }
+  ],
+
+  "sa-13": [ // Zschirnstein / Erzgebirge Aussicht  
+    {
+      id: "connys‑tierpension",
+      name: "Conny's Tierpension",
+      city: "Breitenbrunn/Erzgeb.",
+      description: "Landpension im Erzgebirge — geeignet für Natur‑ und Aussichtspunkte.",
+    }
+  ],
+
+  "sa-14": [ // Augustusburg Castle (Augustusburg)  
+    {
+    id: "connys‑tierpension",
+    name: "Conny's Tierpension",
+    city: "Breitenbrunn/Erzgeb.",
+    description: "Wie sa‑9 / sa‑10 / sa‑13 — Basis für Schloss‑ und Bergregionen.",
+    }
+  ],
+
+  "sa-15": [ // Talsperre Malter (Stausee / Aussicht)  
+    {
+      id: "vom-eichenschloss",
+      name: "Tierpension Vom‑Eichenschloss",
+      city: "Meißen / Umgebung",
+      description: "Geeignete Pension für Ausflüge ins Umland, z. B. zur Malter‑Region.",
+      website: "https://www.vom-eichenschloss.de/meine-tierpension.html"
+    }
+  ],
+
+  "sa-16": [ // Festung Königstein (Elbe)  
+    {
+      id: "vom-eichenschloss",
+      name: "Tierpension Vom‑Eichenschloss",
+      city: "Meißen / Umgebung",
+      description: "Wie sa‑2 / sa‑1 — Basis für Festung & Elbe‑Ausflüge.",
+      website: "https://www.vom-eichenschloss.de/meine-tierpension.html"
+    }
+  ],
+
+  "sa-17": [ // Berg Oybin (Zittau / Südosten)  
+    {
+      id: "hundepension‑görlitz‑region",
+      name: "Hundepension Görlitz‑Region",
+      city: "Neißeaue / Umgebung (Sachsen)",
+      description: "Pension im Osten Sachsens — mögliche Option für Ausflüge nach Zittau/Oybin.",
+      // website unbekannt — nur Verzeichnis‑Eintrag
+    }
+  ],
+
+  "sa-18": [ // Schloss Pillnitz (Dresden)  
+    {
+    id: "hundezentrum‑ostsachsen",
+    name: "Hundezentrum Ostsachsen",
+    city: "Ottendorf‑Okrilla",
+    description: "Zentrale Pension — geeignet für Ausflüge nach Dresden / Pillnitz.",
+    }
+  ],
+
+  "sa-19": [ // Augustusbrücke (Dresden Altstadt)  
+    {
+      id: "hundezentrum‑ostsachsen",
+      name: "Hundezentrum Ostsachsen",
+      city: "Ottendorf‑Okrilla",
+      description: "Wie sa‑4 / sa‑7 / sa‑18 — zentrale Pension für Dresden‑Altstadt Ausflüge.",
+    }
+  ],
+
+  "sa-20": [ // Häntzschel Aussicht / Umgebung Wald  
+    {
+      id: "connys‑tierpension",
+      name: "Conny's Tierpension",
+      city: "Breitenbrunn/Erzgeb.",
+      description: "Günstige ländliche Pension — Basis für Wald und Aussichtstouren.",
+    }
+  ],
 };
+
+
+
 
   
 
