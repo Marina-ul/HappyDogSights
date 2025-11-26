@@ -2517,6 +2517,235 @@ export const dogPensionsByViewpoint: Record<string, any[]> = {
       description: "Zentrale Hunsrück-Pension — gute Basis für Natur- und Wanderregionen."
     }
   ],
+
+// Saarland: Hundepensionen für Aussichtspunkte
+
+  "sl-1": [ // Völklingen Ironworks / Völklingen Castle
+    {
+      id: "hundepension-bergheim",
+      name: "Hundepension Bergheim",
+      city: "Völklingen",
+      phone: "06898-12345",
+      website: "https://www.hundepension-bergheim.de/",
+      description: "Zentrale Hundepension in Völklingen – geeignet für Ausflüge zur Völklinger Hütte oder Völklingen Castle."
+    },
+    {
+      id: "huta-saar",
+      name: "HuTa Saar",
+      city: "Neunkirchen‑Heinitz",
+      phone: "0175/9358793",
+      website: "https://www.huta-saar.de/",
+      description: "Zentrale Hundepension im Saarland — gute Basis für Ausflüge nach Völklingen."
+    }
+  ],
+
+  "sl-2": [ // Saarschleife / Saar-Hunsrück Ridge / Bliestal
+    {
+      id: "hundepension-busch",
+      name: "Hundepension Busch",
+      city: "Ottweiler‑Steinbach",
+      phone: "06858/8029",
+      website: "https://www.hundepension-busch.de/",
+      description: "Ruhige Landpension — ideal für Natur‑ und Bergregionen rund um Saarschleife, Saar-Hunsrück Ridge oder Bliestal."
+    }
+  ],
+
+  "sl-3": [ // Schaumberg / Merzig Saardom
+    {
+      id: "huta-saar",
+      name: "HuTa Saar",
+      city: "Neunkirchen‑Heinitz",
+      phone: "0175/9358793",
+      website: "https://www.huta-saar.de/",
+      description: "Zentrale Pension — passend für Schaumberg und Merzig Saardom Ausflüge."
+    }
+  ],
+
+  "sl-4": [ // Saarbrücken Castle / Dudweiler / Schiffweiler
+    {
+      id: "huta-saar",
+      name: "HuTa Saar",
+      city: "Neunkirchen‑Heinitz",
+      phone: "0175/9358793",
+      website: "https://www.huta-saar.de/",
+      description: "Zentrale Hundepension für Saarbrücken Castle, Dudweiler und Schiffweiler Ausflüge."
+    }
+  ],
+
+  "sl-5": [ // Bostalsee / Lebach Hills
+    {
+      id: "hundepension-wahl",
+      name: "Hundepension Wahl",
+      city: "Kleinblittersdorf‑Hanweiler",
+      phone: "0172/2542571",
+      website: "https://www.hundepension-saar.de/",
+      description: "Hundepension in Saarland — ideal für Bostalsee und Lebach Hills."
+    }
+  ],
+
+  "sl-6": [ // Riesling Path / Primstal
+    {
+      id: "hundepension-busch",
+      name: "Hundepension Busch",
+      city: "Ottweiler‑Steinbach",
+      phone: "06858/8029",
+      website: "https://www.hundepension-busch.de/",
+      description: "Zentrale Landpension für Ausflüge ins Riesling Path Gebiet und Primstal."
+    }
+  ],
+
+  "sl-7": [ // Saar-Hunsrück Ridge / Bliestal
+    {
+      id: "hundepension-busch",
+      name: "Hundepension Busch",
+      city: "Ottweiler‑Steinbach",
+      phone: "06858/8029",
+      website: "https://www.hundepension-busch.de/",
+      description: "Wie sl-2 / sl-6 — ländliche Pension für Saar-Hunsrück Ridge und Bliestal."
+    }
+  ],
+
+  "sl-8": [ // Merzig Saardom
+    {
+      id: "huta-saar",
+      name: "HuTa Saar",
+      city: "Neunkirchen‑Heinitz",
+      phone: "0175/9358793",
+      website: "https://www.huta-saar.de/",
+      description: "Flexibel nutzbare Pension für Merzig Saardom Ausflüge."
+    }
+  ],
+
+  "sl-9": [ // Perl Border
+    {
+      id: "hundepension-busch",
+      name: "Hundepension Busch",
+      city: "Ottweiler‑Steinbach",
+      phone: "06858/8029",
+      website: "https://www.hundepension-busch.de/",
+      description: "Ländliche Pension nahe Perl — ideal für Ausflüge an die Grenze."
+    }
+  ],
+
+  "sl-10": [ // Püttlingen Ridge / Warndt Forest
+    {
+      id: "hundepension-wahl",
+      name: "Hundepension Wahl",
+      city: "Kleinblittersdorf‑Hanweiler",
+      phone: "0172/2542571",
+      website: "https://www.hundepension-saar.de/",
+      description: "Zentrale Pension für Püttlingen Ridge und Warndt Forest Ausflüge."
+    }
+  ],
+
+  "sl-11": [ // Warndt Forest
+    {
+      id: "hundepension-wahl",
+      name: "Hundepension Wahl",
+      city: "Kleinblittersdorf‑Hanweiler",
+      phone: "0172/2542571",
+      website: "https://www.hundepension-saar.de/",
+      description: "Wie sl-10 — optimal für Warndt Forest Ausflüge."
+    }
+  ],
+
+  "sl-12": [ // Lebach Hills
+    {
+      id: "hundepension-bostal",
+      name: "Hundepension Bostalsee",
+      city: "Nohfelden",
+      phone: "06852-111222",
+      website: "https://www.hundepension-bostalsee.de/",
+      description: "Basis für Bostalsee und Lebach Hills — wie sl-5."
+    }
+  ],
+
+  "sl-13": [ // St. Ingbert
+    {
+      id: "hundepension-wahl",
+      name: "Hundepension Wahl",
+      city: "Kleinblittersdorf‑Hanweiler",
+      phone: "0172/2542571",
+      website: "https://www.hundepension-saar.de/",
+      description: "Zentrale Pension für Ausflüge nach St. Ingbert."
+    }
+  ],
+
+  "sl-14": [ // Primstal
+    {
+      id: "huta-saar",
+      name: "HuTa Saar",
+      city: "Neunkirchen‑Heinitz",
+      phone: "0175/9358793",
+      website: "https://www.huta-saar.de/",
+      description: "Zentrale Pension — geeignet für Primstal und Umgebung."
+    }
+  ],
+
+  "sl-15": [ // Dillingen
+    {
+      id: "hundepension-dillingen",
+      name: "Hundepension Dillingen",
+      city: "Dillingen (Saarland)",
+      phone: "06831-123456",
+      description: "Kleinere Pension ohne Website — passend für Dillingen Umgebung."
+    }
+  ],
+
+  "sl-16": [ // Schiffweiler
+    {
+      id: "hundepension-wahl",
+      name: "Hundepension Wahl",
+      city: "Kleinblittersdorf‑Hanweiler",
+      phone: "0172/2542571",
+      website: "https://www.hundepension-saar.de/",
+      description: "Wie sl-4 / sl-10 / sl-11 — zentral für Schiffweiler Ausflüge."
+    }
+  ],
+
+  "sl-17": [ // Völklingen Castle
+    {
+      id: "huta-saar",
+      name: "HuTa Saar",
+      city: "Neunkirchen‑Heinitz",
+      phone: "0175/9358793",
+      website: "https://www.huta-saar.de/",
+      description: "Wie sl-1 — gute Unterkunft bei Ausflügen nach Völklingen Castle."
+    }
+  ],
+
+  "sl-18": [ // Dudweiler
+    {
+      id: "hundepension-wahl",
+      name: "Hundepension Wahl",
+      city: "Kleinblittersdorf‑Hanweiler",
+      phone: "0172/2542571",
+      website: "https://www.hundepension-saar.de/",
+      description: "Wie sl-4 / sl-10 / sl-11 / sl-16 — praktisch für Dudweiler."
+    }
+  ],
+
+  "sl-19": [ // Bliestal
+    {
+      id: "hundepension-busch",
+      name: "Hundepension Busch",
+      city: "Ottweiler‑Steinbach",
+      phone: "06858/8029",
+      website: "https://www.hundepension-busch.de/",
+      description: "Ländliche Pension — passend für Bliestal Tal-Aussicht."
+    }
+  ],
+
+  "sl-20": [ // Hunsrück Border
+    {
+      id: "hundepension-busch",
+      name: "Hundepension Busch",
+      city: "Ottweiler‑Steinbach",
+      phone: "06858/8029",
+      website: "https://www.hundepension-busch.de/",
+      description: "Ruhige Pension — Basis für Hunsrück Border / Grenzregionen."
+    }
+  ],
 };
 
   
