@@ -2295,7 +2295,232 @@ export const dogPensionsByViewpoint: Record<string, any[]> = {
       description: "Passt für Mount St. Goar Ausflüge."
     }
   ],
+
+// Rheinland‑Pfalz: Hundepensionen für Aussichtspunkte
+
+  
+  "rp-1": [ // Loreley / Rhein-Tal (Rhein-Schleifen / Talregionen)
+    {
+      id: "hundepension-wagner",
+      name: "Hundepension Wagner",
+      city: "Sprendlingen (RP)",
+      phone: "06701-7086",
+      website: "https://www.hundepension-rheinhessen-pfalz.de/",
+      description: "Hundepension in Sprendlingen — gut erreichbar für Rhein-Tal / Loreley / Rhein-Schleifen-Ausflüge."
+    }
+  ],
+
+  "rp-2": [ // Burg Eltz / Koblenz-Region / Mosel-Nähe
+    {
+      id: "hundepension-neumuehle",
+      name: "Hundepension Neumühle",
+      city: "Elsoff-Mittelhofen (Hunsrück)",
+      phone: "",  // keine klare Telefonangabe im Verzeichnis
+      website: "https://www.hundepension-neumuehle.de/hundepension-simmernhunsrueck/",
+      description: "Landpension im Hunsrück — als Basis für Ausflüge zur Burg Eltz oder Koblenz/Mosel Region geeignet."
+    }
+  ],
+
+  "rp-3": [ // Deutsches Eck (Koblenz) / Rhein-Mosel-Mündung Region
+    {
+      id: "hundepension-neumuehle-2",
+      name: "Hundepension Neumühle",
+      city: "Elsoff-Mittelhofen (Hunsrück)",
+      phone: "",
+      website: "https://www.hundepension-neumuehle.de/hundepension-simmernhunsrueck/",
+      description: "Selbe Pension wie rp-2 — praktikabel für Koblenz & Rhein-Mündung Ausflüge."
+    }
+  ],
+
+  "rp-4": [ // Boppard Lookout / Rhein-Tal Region
+    {
+      id: "hundepension-wagner-2",
+      name: "Hundepension Wagner",
+      city: "Sprendlingen (RP)",
+      phone: "06701-7086",
+      website: "https://www.hundepension-rheinhessen-pfalz.de/",
+      description: "Wie rp-1 — geeignet für Reisen ins Rhein-Tal und Umgebung."
+    }
+  ],
+
+  "rp-5": [ // Donnersberg / Pfälzer Bergregion
+    {
+      id: "forsthaus-donnersberg",
+      name: "Forsthaus Donnersberg",
+      city: "Börrstadt (RP)",
+      phone: "06357-5090211",
+      website: "http://www.forsthaus-donnersberg.de",
+      description: "Ruhige Pension mit Garten & Auslauf — passend für Donnersberg- und Pfälzer Wald-Ausflüge."
+    }
+  ],
+
+  "rp-6": [ // Erbeskopf / Hunsrück-Naturregion
+    {
+      id: "hundepension-neumuehle-3",
+      name: "Hundepension Neumühle",
+      city: "Elsoff-Mittelhofen (Hunsrück)",
+      phone: "",
+      website: "https://www.hundepension-neumuehle.de/hundepension-simmernhunsrueck/",
+      description: "Zentrale Hunsrück-Pension — gute Basis für Erbeskopf & umliegende Naturregionen."
+    }
+  ],
+
+  "rp-7": [ // Teufelsmauer (wenn man weite Anfahrt akzeptiert)
+    {
+      id: "hundepension-neumuehle-4",
+      name: "Hundepension Neumühle",
+      city: "Elsoff-Mittelhofen (Hunsrück)",
+      phone: "",
+      website: "https://www.hundepension-neumuehle.de/hundepension-simmernhunsrueck/",
+      description: "Auch wenn etwas weiter — zentrale Pension für weite Tourenziele."
+    }
+  ],
+
+  "rp-8": [ // Mosel Viewpoint / Mosel-Schleifen / Rhein-Mosel-Gebiet
+    {
+      id: "hundepension-wagner-3",
+      name: "Hundepension Wagner",
+      city: "Sprendlingen (RP)",
+      phone: "06701-7086",
+      website: "https://www.hundepension-rheinhessen-pfalz.de/",
+      description: "Günstige Pension für Ausflüge zur Mosel oder Rhein-Mosel-Gebiet."
+    }
+  ],
+
+  "rp-9": [ // Hegerberg / Pfälzer Bergland
+    {
+      id: "forsthaus-donnersberg-2",
+      name: "Forsthaus Donnersberg",
+      city: "Börrstadt (RP)",
+      phone: "06357-5090211",
+      website: "http://www.forsthaus-donnersberg.de",
+      description: "Wie rp-5 — guter Ausgangspunkt für Pfälzer Berg- und Waldgebiete."
+    }
+  ],
+
+  "rp-10": [ // Trifels Castle / Südpfalz / Waldrandregion
+    {
+      id: "hundepension-weidenmuehle",
+      name: "Hundepension an der Weidenmühle",
+      city: "Neu-Bamberg (RP)",
+      phone: "06703-305695",
+      website: "http://www.hundepension-weidenmuehle.de",
+      description: "Familiäre Pension mit Haus & Garten — geeignet für Südpfalz-Ausflüge rund um Trifels / Kalmit."
+    }
+  ],
+
+  "rp-11": [ // Kalmit / Pfälzerwald / Südpfalz
+    {
+      id: "forsthaus-donnersberg-3",
+      name: "Forsthaus Donnersberg",
+      city: "Börrstadt (RP)",
+      phone: "06357-5090211",
+      website: "http://www.forsthaus-donnersberg.de",
+      description: "Praktische Pension für Wanderungen im Pfälzerwald und Ausflüge zur Kalmit."
+    }
+  ],
+
+  "rp-12": [ // Pfälzerwald / Waldgebiete
+    {
+      id: "hundepension-weidenmuehle-2",
+      name: "Hundepension an der Weidenmühle",
+      city: "Neu-Bamberg (RP)",
+      phone: "06703-305695",
+      website: "http://www.hundepension-weidenmuehle.de",
+      description: "Haus- und Gartenpension — gute Wahl für längere Aufenthalte in Waldnähe."
+    }
+  ],
+
+  "rp-13": [ // Kallenfels / Fels- & Talregionen
+    {
+      id: "hundepension-wagner-4",
+      name: "Hundepension Wagner",
+      city: "Sprendlingen (RP)",
+      phone: "06701-7086",
+      website: "https://www.hundepension-rheinhessen-pfalz.de/",
+      description: "Zentrale Pension — geeignet für Ausflüge Richtung Rhein-Mosel und Felsformationen."
+    }
+  ],
+
+  "rp-14": [ // Aremberg / Eifel- bzw. Grenzregionen
+    {
+      id: "hundepension-charly",
+      name: "Chani’s Hundepension",
+      city: "Urbach (RP / Mosel-Region)",
+      phone: "0171-7887123",
+      description: "Kleine, familiäre Pension — Option für Eifel- und Mosel-Ausflüge."
+    }
+  ],
+
+  "rp-15": [ // Rheinhöhen Trail / Rhein-Talerweiterungen
+    {
+      id: "hundepension-wagner-5",
+      name: "Hundepension Wagner",
+      city: "Sprendlingen (RP)",
+      phone: "06701-7086",
+      website: "https://www.hundepension-rheinhessen-pfalz.de/",
+      description: "Wie rp-1 — gute Basis für Wanderungen entlang der Rheinhöhen."
+    }
+  ],
+
+  "rp-16": [ // Soonwald / Waldgebiet Rheinland
+    {
+      id: "forsthaus-donnersberg-4",
+      name: "Forsthaus Donnersberg",
+      city: "Börrstadt (RP)",
+      phone: "06357-5090211",
+      website: "http://www.forsthaus-donnersberg.de",
+      description: "Ruhige Pension mit Garten — passend für Wald- und Naturregionen wie Soonwald."
+    }
+  ],
+
+  "rp-17": [ // Lemberg / Pfälzer Berge
+    {
+      id: "hundepension-weidenmuehle-3",
+      name: "Hundepension an der Weidenmühle",
+      city: "Neu-Bamberg (RP)",
+      phone: "06703-305695",
+      website: "http://www.hundepension-weidenmuehle.de",
+      description: "Familiengeführte Pension — gute Option für Ausflüge zu Pfälzer Bergen wie dem Lemberg."
+    }
+  ],
+
+  "rp-18": [ // Stolberg / Rhein-Mosel / Talregionen
+    {
+      id: "hundepension-wagner-6",
+      name: "Hundepension Wagner",
+      city: "Sprendlingen (RP)",
+      phone: "06701-7086",
+      website: "https://www.hundepension-rheinhessen-pfalz.de/",
+      description: "Verlässliche Pension — geeignet bei Tal- und Rhein-Mosel-Ausflügen."
+    }
+  ],
+
+  "rp-19": [ // Niederwald / Rhein-Rundblick / Weinregion
+    {
+      id: "hundepension-weidenmuehle-4",
+      name: "Hundepension an der Weidenmühle",
+      city: "Neu-Bamberg (RP)",
+      phone: "06703-305695",
+      website: "http://www.hundepension-weidenmuehle.de",
+      description: "Wie rp-10 — geeignet für Weinbau- und Rheinblick-Regionen."
+    }
+  ],
+
+  "rp-20": [ // Hunsrück Nature / Naturregion / Mischung aus Wäldern & Tälern
+    {
+      id: "hundepension-neumuehle-5",
+      name: "Hundepension Neumühle",
+      city: "Elsoff-Mittelhofen (Hunsrück)",
+      phone: "",
+      website: "https://www.hundepension-neumuehle.de/hundepension-simmernhunsrueck/",
+      description: "Zentrale Hunsrück-Pension — gute Basis für Natur- und Wanderregionen."
+    }
+  ],
 };
+
+  
+
 
 
 
