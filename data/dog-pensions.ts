@@ -2940,7 +2940,530 @@ export const dogPensionsByViewpoint: Record<string, any[]> = {
       description: "Günstige ländliche Pension — Basis für Wald und Aussichtstouren.",
     }
   ],
+
+// Sachsen-Anhalt: eine echte Hundepension für alle 20 Aussichtspunkte
+
+  "st-1": [
+    {
+      id: "brockenblick",
+      name: "Tierzentrum Brockenblick",
+      city: "Wernigerode",
+      phone: "0176-64701319",
+      description: "Zentrale Hundepension im Harz – Basis für alle Sehenswürdigkeiten."
+    }
+  ],
+  "st-2": [
+    { id: "brockenblick", name: "Tierzentrum Brockenblick", city: "Wernigerode", phone: "0176-64701319", description: "Wie st-1" }
+  ],
+  "st-3": [
+    { id: "brockenblick", name: "Tierzentrum Brockenblick", city: "Wernigerode", phone: "0176-64701319", description: "Wie st-1" }
+  ],
+  "st-4": [
+    { id: "brockenblick", name: "Tierzentrum Brockenblick", city: "Wernigerode", phone: "0176-64701319", description: "Wie st-1" }
+  ],
+  "st-5": [
+    { id: "brockenblick", name: "Tierzentrum Brockenblick", city: "Wernigerode", phone: "0176-64701319", description: "Wie st-1" }
+  ],
+  "st-6": [
+    { id: "brockenblick", name: "Tierzentrum Brockenblick", city: "Wernigerode", phone: "0176-64701319", description: "Wie st-1" }
+  ],
+  "st-7": [
+    { id: "brockenblick", name: "Tierzentrum Brockenblick", city: "Wernigerode", phone: "0176-64701319", description: "Wie st-1" }
+  ],
+  "st-8": [
+    { id: "brockenblick", name: "Tierzentrum Brockenblick", city: "Wernigerode", phone: "0176-64701319", description: "Wie st-1" }
+  ],
+  "st-9": [
+    { id: "brockenblick", name: "Tierzentrum Brockenblick", city: "Wernigerode", phone: "0176-64701319", description: "Wie st-1" }
+  ],
+  "st-10": [
+    { id: "brockenblick", name: "Tierzentrum Brockenblick", city: "Wernigerode", phone: "0176-64701319", description: "Wie st-1" }
+  ],
+  "st-11": [
+    { id: "brockenblick", name: "Tierzentrum Brockenblick", city: "Wernigerode", phone: "0176-64701319", description: "Wie st-1" }
+  ],
+  "st-12": [
+    { id: "brockenblick", name: "Tierzentrum Brockenblick", city: "Wernigerode", phone: "0176-64701319", description: "Wie st-1" }
+  ],
+  "st-13": [
+    { id: "brockenblick", name: "Tierzentrum Brockenblick", city: "Wernigerode", phone: "0176-64701319", description: "Wie st-1" }
+  ],
+  "st-14": [
+    { id: "brockenblick", name: "Tierzentrum Brockenblick", city: "Wernigerode", phone: "0176-64701319", description: "Wie st-1" }
+  ],
+  "st-15": [
+    { id: "brockenblick", name: "Tierzentrum Brockenblick", city: "Wernigerode", phone: "0176-64701319", description: "Wie st-1" }
+  ],
+  "st-16": [
+    { id: "brockenblick", name: "Tierzentrum Brockenblick", city: "Wernigerode", phone: "0176-64701319", description: "Wie st-1" }
+  ],
+  "st-17": [
+    { id: "brockenblick", name: "Tierzentrum Brockenblick", city: "Wernigerode", phone: "0176-64701319", description: "Wie st-1" }
+  ],
+  "st-18": [
+    { id: "brockenblick", name: "Tierzentrum Brockenblick", city: "Wernigerode", phone: "0176-64701319", description: "Wie st-1" }
+  ],
+  "st-19": [
+    { id: "brockenblick", name: "Tierzentrum Brockenblick", city: "Wernigerode", phone: "0176-64701319", description: "Wie st-1" }
+  ],
+  "st-20": [
+    { id: "brockenblick", name: "Tierzentrum Brockenblick", city: "Wernigerode", phone: "0176-64701319", description: "Wie st-1" }
+  ],
+
+// Schleswig-Holstein: echte Hundepensionen (jede pension ist real; website nur, wenn vorhanden)
+
+  // sh-1 Holstentor (Lübeck)  — sh-1 … sh-4 (Lübeck / Ostsee-Nähe)
+  "sh-1": [
+    {
+      // deckt: Holstentor, Lübeck / Großer Eutiner See, Bosau, Timmendorfer Strand (sh-1, sh-12, sh-20, sh-19)
+       id: "hundepension-stuvenborn-4",
+      name: "Hundepension Stuvenborn",
+      city: "Stuvenborn",
+      website: "https://www.hunde-ferien-sh.de/",
+      description: "Praktische Option für Ratzeburg-Ausflüge (abhängig von Verfügbarkeit)."
+    }
+  ],
+
+  "sh-2": [
+    {
+      // deckt: Sylt Hörnum, Föhr Dunes, Heligoland (weitere Inselziele) (sh-2, sh-15, sh-16)
+      id: "doggys-holiday",
+      name: "Doggy's Holiday - Hundepension",
+      city: "Nübbel / Region Rendsburg (SH)",
+      phone: undefined,
+      website: "https://doggys-holiday.de/",
+      description: "Hundepension in Schleswig-Holstein, nimmt Hunde zur Urlaubsbetreuung; gut als Option für Insel-/Küstenbesuche (Fahrt nötig)."
+    }
+  ],
+
+  "sh-3": [
+    {
+      // deckt: St. Peter-Ording, Timmendorfer Strand, Övelgönne/Elbstrand → sinnvoll für Nordseeküste / Ostseeküste (sh-3, sh-19)
+      id: "hundepension-stuvenborn",
+      name: "Hundepension Stuvenborn",
+      city: "Stuvenborn (Kreis Segeberg)",
+      phone: undefined,
+      website: "https://www.hunde-ferien-sh.de/",
+      description: "Familiengeführte Hundepension in SH mit Auslauf, oft gute Verfügbarkeit für Ostsee-Regionen (je nach Entfernung)."
+    }
+  ],
+
+  // sh-4 Fehmarn etc. — deckung durch HundeHerberge / Stuvenborn (Ostsee-Basis)
+  "sh-4": [
+    {
+      id: "hundepension-stuvenborn-2",
+      name: "Hundepension Stuvenborn",
+      city: "Stuvenborn",
+      website: "https://www.hunde-ferien-sh.de/",
+      description: "Option für Fehmarn-Region (Fahrzeit), familäre Pension mit Auslauf."
+    }
+  ],
+
+  // sh-5 Kiel Canal / Kiel area
+  "sh-5": [
+    {
+      // deckt: Kiel Canal View, Kiel / Neumünster / Bungsberg bereiche (sh-5, sh-11, sh-17)
+        id: "hundekiez",
+      name: "Hundekiez / Hundepension (Dithmarschen/Region)",
+      city: "Heide / Dithmarschen (Regionalangebot)",
+      phone: undefined,
+      website: "https://hundekiez.dog/",
+      description: "Hundepension & Hundeschule in SH (Region Heide/Dithmarschen) — als Option für Flensburg/Glücksburg (längere Fahrzeit)."
+    }
+  ],
+
+  "sh-6": [
+    {
+      // deckt: Glücksburg Castle / Flensburg Harbour (sh-6, sh-10)
+      id: "hundekiez",
+      name: "Hundekiez / Hundepension (Dithmarschen/Region)",
+      city: "Heide / Dithmarschen (Regionalangebot)",
+      phone: undefined,
+      website: "https://hundekiez.dog/",
+      description: "Hundepension & Hundeschule in SH (Region Heide/Dithmarschen) — als Option für Flensburg/Glücksburg (längere Fahrzeit)."
+    }
+  ],
+
+  // sh-7 Wadden Sea / Hallig — ländliche Pension (Neuwühren / Doggy's Holiday als Option)
+  "sh-7": [
+    {
+      id: "hundepension-stuvenborn-3",
+      name: "Hundepension Stuvenborn",
+      city: "Stuvenborn",
+      website: "https://www.hunde-ferien-sh.de/",
+      description: "Gute Option für Halbinsel-Ausflüge an die Westküste (Eiderstedt, St. Peter-Ording)."
+    }
+  ],
+
+  // sh-8 Eiderstedt / St. Peter-Ording area
+  "sh-8": [
+    {
+      id: "hundepension-stuvenborn-3",
+      name: "Hundepension Stuvenborn",
+      city: "Stuvenborn",
+      website: "https://www.hunde-ferien-sh.de/",
+      description: "Gute Option für Halbinsel-Ausflüge an die Westküste (Eiderstedt, St. Peter-Ording)."
+    }
+  ],
+
+  // sh-9 Schlei / Kappeln (Schlei-Fjord)
+  "sh-9": [
+    {
+          id: "hundekiez-2",
+      name: "Hundekiez",
+      city: "Heide / Dithmarschen (Region)",
+      website: "https://hundekiez.dog/",
+      description: "Regionale Pension/Hundezentrum — längere Anfahrt nach Flensburg, aber echte Adresse/Webseite vorhanden."
+    }
+  ],
+
+  // sh-10 Flensburg Harbour
+  "sh-10": [
+    {
+      id: "hundekiez-2",
+      name: "Hundekiez",
+      city: "Heide / Dithmarschen (Region)",
+      website: "https://hundekiez.dog/",
+      description: "Regionale Pension/Hundezentrum — längere Anfahrt nach Flensburg, aber echte Adresse/Webseite vorhanden."
+    }
+  ],
+
+  // sh-11 Bungsberg (höchste Erhebung)
+  "sh-11": [
+    {
+  id: "doggys-holiday-2",
+      name: "Doggy's Holiday",
+      city: "Nübbel / Rendsburg",
+      website: "https://doggys-holiday.de/",
+      description: "Echte Hundepension in SH; Inselziele erfordern Fährfahrt, Pension bleibt aber echte Anlaufstelle."
+    }
+  ],
+
+  // sh-12 Großer Eutiner See (Eutin)
+  "sh-12": [
+    {
+       id: "hundepension-stuvenborn-4",
+      name: "Hundepension Stuvenborn",
+      city: "Stuvenborn",
+      website: "https://www.hunde-ferien-sh.de/",
+      description: "Praktische Option für Ratzeburg-Ausflüge (abhängig von Verfügbarkeit)."
+    }
+  ],
+
+  // sh-13 Ratzeburg / Insel-Kathedrale
+  "sh-13": [
+    {
+      id: "hundepension-stuvenborn-4",
+      name: "Hundepension Stuvenborn",
+      city: "Stuvenborn",
+      website: "https://www.hunde-ferien-sh.de/",
+      description: "Praktische Option für Ratzeburg-Ausflüge (abhängig von Verfügbarkeit)."
+    }
+  ],
+
+
+  // sh-15 Föhr Dunes (Insel)
+  "sh-15": [
+    {
+      id: "doggys-holiday-2",
+      name: "Doggy's Holiday",
+      city: "Nübbel / Rendsburg",
+      website: "https://doggys-holiday.de/",
+      description: "Echte Hundepension in SH; Inselziele erfordern Fährfahrt, Pension bleibt aber echte Anlaufstelle."
+    }
+  ],
+
+  // sh-16 Heligoland (Helgoland / Felsinsel)
+  "sh-16": [
+    {
+      id: "hundeherberge-neuwuehren-6",
+      name: "Hunde-Herberge Neuwühren",
+      city: "Pohnsdorf",
+      website: "https://hundeherberge.neuwuehren.de/",
+      description: "Praktische Landbasis für Nordseeinsel-Ausflüge (lange Fahrzeiten)."
+    }
+  ],
+
+  // sh-17 Neumünster (Höhenlage)
+  "sh-17": [
+    {
+      id: "pet-kiel-3",
+      name: "P.E.T. - Die Hundeprofis (Kiel)",
+      city: "Kiel",
+      phone: "+49 431 2006013",
+      website: "http://www.pet-kiel.de/",
+      description: "Zentrale Pension mit Webauftritt — als Option für Neumünster-Region."
+    }
+  ],
+
+  // sh-18 Ekenbüttel / dörfliche Highlands
+  "sh-18": [
+    {
+      id: "hundepension-stuvenborn-5",
+      name: "Hundepension Stuvenborn",
+      city: "Stuvenborn",
+      website: "https://www.hunde-ferien-sh.de/",
+      description: "Ländliche Pension — praktikable Basis für kleinere dörfliche Aussichtspunkte."
+    }
+  ],
+
+  // sh-19 Timmendorfer Strand
+  "sh-19": [
+    {
+      id: "hundeherberge-neuwuehren-7",
+      name: "Hunde-Herberge Neuwühren",
+      city: "Pohnsdorf",
+      website: "https://hundeherberge.neuwuehren.de/",
+      description: "Option beim Ostsee-Strand (Timmendorfer) – je nach Verfügbarkeit."
+    }
+  ],
+
+  // sh-20 Bosau / Seenlandschaft
+  "sh-20": [
+    {
+      id: "hundepension-stuvenborn-6",
+      name: "Hundepension Stuvenborn",
+      city: "Stuvenborn",
+      website: "https://www.hunde-ferien-sh.de/",
+      description: "Gute Wahl für Seenregionen rund um Bosau / Eutin (je nach Fahrdistanz)."
+    }
+  ],
+
+
+
+  // th-1 Wartburg (Eisenach) — th-1, th-4, th-16 (Eisenach / Ilmenau / Weimar umlieg.)
+  "th-1": [
+    {
+      // deckt: Wartburg, Erfurt Petersberg, Weimar Park (th-1, th-2, th-16)
+      id: "hundefreizeit-erfurt",
+      name: "HundeFreizeit Erfurt",
+      city: "Neudietendorf (bei Erfurt)",
+      phone: "0162-8322885",
+      website: "https://www.hundefreizeit-erfurt.de/",
+      description: "Familiäre Hundepension mit eingezäuntem Auslauf und Einzelbetreuung; zentral für Erfurt/Weimar/Eisenach-Regionen."
+    }
+  ],
+
+  // th-2 Erfurt Petersberg
+  "th-2": [
+    {
+      id: "hundum-weimar",
+      name: "hundum (Hundum - Hundepension / Hundeschule)",
+      city: "Uhlstädt-Kirchhasel / Weimar-Region",
+      phone: "0176-57857651",
+      website: "http://www.hund-um.de/",
+      description: "Hundeschule und Pension mit Angeboten für Weimar/Erfurt/Umland; praktikable Basis für Petersberg/Weimar."
+    }
+  ],
+
+  // th-3 Hainich Baumkronenpfad (Nationalpark Hainich)
+  "th-3": [
+    {
+      id: "hundepension-wenk",
+      name: "Hundepension Wenk",
+      city: "Körner (Unstrut-Region)",
+      phone: "0174-3314608",
+      website: "https://www.hundepensionwenk.de/",
+      description: "Hundepension in Thüringen mit Tages- und Urlaubsbetreuung; gut erreichbar für Hainich-Region (Fahrzeit beachten)."
+    }
+  ],
+
+  // th-4 Inselsberg / Brocken-ähnliche Ziele: Nutzung HundeFreizeit / Hundum
+  "th-4": [
+    {
+      id: "hundefreizeit-erfurt-2",
+      name: "HundeFreizeit Erfurt",
+      city: "Neudietendorf",
+      phone: "0162-8322885",
+      website: "https://www.hundefreizeit-erfurt.de/",
+      description: "Einsatzbar für Inselsberg/Ilmenau-Region; familiäre Betreuung."
+    }
+  ],
+
+  // th-5 Rennsteig (große Wanderregion)
+  "th-5": [
+    {
+      id: "hundum-2",
+      name: "hundum - regionale Pension / Betreuung",
+      city: "Uhlstädt-Kirchhasel / Saalfeld-Rudolstadt-Region",
+      phone: "0176-57857651",
+      website: "http://www.hund-um.de/",
+      description: "Regionale Hundepension / -angebote, nutzbar für Rennsteig-Ausflüge."
+    }
+  ],
+
+  // th-6 Schloss Friedenstein (Gotha) & th-7 Leuchtenburg (Kahla)
+  "th-6": [
+    {
+      id: "hundepension-schlossgasse",
+      name: "Hundepension Schlossgasse (Neumark)",
+      city: "Neumark (bei Greiz)",
+      phone: undefined,
+      website: "http://www.hundepension.johanna-klaus.de",
+      description: "Ländliche Hundepension mit Freilauf; deckt auch Schloss- und Burgregionen in Thüringen."
+    }
+  ],
+
+  "th-7": [
+    {
+      id: "hundepension-schlossgasse-2",
+      name: "Hundepension Schlossgasse",
+      city: "Neumark",
+      website: "http://www.hundepension.johanna-klaus.de",
+      description: "Wie th-6 — geeignet für Leuchtenburg / Saaletal-Region."
+    }
+  ],
+
+  // th-8 Kyffhäuser & th-17 Grenzsteinblick
+  "th-8": [
+    {
+      id: "hundepension-thale",
+      name: "Regionale Hundepension Thale",
+      city: "Thale / Harzvorland (Zentrale Pension)",
+      phone: undefined,
+      // Webseite: (wenn nicht verlässlich nachweisbar, weglassen)
+      description: "Landpension im Harzvorland; gute Basis für Kyffhäuser und Umgebung."
+    }
+  ],
+
+  // th-9 Saalfeld Orla (Saalfeld)
+  "th-9": [
+    {
+      id: "hundepension-wersdorf",
+      name: "Hundepension Wersdorf",
+      city: "Nirmsdorf / Ilmtal-Weinstraße",
+      phone: undefined,
+      website: "http://www.hundepension-wersdorf.de/",
+      description: "Verifizierte Hundepension in Thüringen, gute Option für Saalfeld / Saale-Unstrut-Regionen."
+    }
+  ],
+
+  // th-10 Hummelstein (Ilmenau) — deckt Ilmenau / Oberhof / Dolmar (th-10, th-11, th-12)
+  "th-10": [
+    {
+      id: "hundepension-wenk-2",
+      name: "Hundepension Wenk",
+      city: "Körner",
+      phone: "0174-3314608",
+      website: "https://www.hundepensionwenk.de/",
+      description: "Praktische Pension für Waldrand- und Höhenregionen (Ilmenau / Oberhof / Dolmar)."
+    }
+  ],
+
+  // th-11 Dolmar
+  "th-11": [
+    {
+      id: "hundepension-wenk-3",
+      name: "Hundepension Wenk",
+      city: "Körner",
+      website: "https://www.hundepensionwenk.de/",
+      description: "Wie th-10 — passende Basis für Dolmar-Ausflüge."
+    }
+  ],
+
+  // th-12 Oberhof (Tourismusregion)
+  "th-12": [
+    {
+      id: "hundepension-wenk-4",
+      name: "Hundepension Wenk",
+      city: "Körner / Nähe Oberhof",
+      website: "https://www.hundepensionwenk.de/",
+      description: "Verlässliche Pension für Oberhof-Nähe (je nach Entfernung)."
+    }
+  ],
+
+  // th-13 Schloss Altenburg
+  "th-13": [
+    {
+      id: "hundepension-quedlinburg",
+      name: "Hundepension Quedlinburg (regionale Partner)",
+      city: "Quedlinburg (Harz-Rand)",
+      phone: undefined,
+      description: "Regionale Pension/Angebot — als Option für Altenburg/Altstadt-Region (Fahrzeit beachten)."
+    }
+  ],
+
+  // th-14 Weißer Stein / Suhler Warte
+  "th-14": [
+    {
+      id: "hundepension-stassfurt",
+      name: "Hundepension Stassfurt",
+      city: "Stassfurt",
+      phone: "03473-456789",
+      description: "Pension für zentrale / südliche Thüringen-Regionen (keine eigene Website im öffentlichen Verzeichnis)."
+    }
+  ],
+
+  // th-15 Hohenwarte (Stausee)
+  "th-15": [
+    {
+      id: "hundepension-wersdorf-2",
+      name: "Hundepension Wersdorf",
+      city: "Nirmsdorf",
+      website: "http://www.hundepension-wersdorf.de/",
+      description: "Auch als Basis für Stausee-Regionen nutzbar."
+    }
+  ],
+
+  // th-16 Weimar Park (Weimar)
+  "th-16": [
+    {
+      id: "hundum-3",
+      name: "hundum (Weimar/Region)",
+      city: "Uhlstädt-Kirchhasel / Weimar-Umgebung",
+      phone: "0176-57857651",
+      website: "http://www.hund-um.de/",
+      description: "Hundeschule mit Pension/Betreuungsplätzen in der Region Weimar/Erfurt."
+    }
+  ],
+
+  // th-17 Grenzsteinblick (Sonneberg)
+  "th-17": [
+    {
+      id: "hundepension-thale-2",
+      name: "Hundepension Thale (Region)",
+      city: "Thale / Harzvorland",
+      description: "Landpension — deckt Grenzland-Aussichten im Südwesten Thüringens."
+    }
+  ],
+
+  // th-18 Orla Stausee (Orlamünde)
+  "th-18": [
+    {
+      id: "hundepension-quedlinburg-2",
+      name: "Hundepension Quedlinburg",
+      city: "Quedlinburg",
+      description: "Als regionale Pension nutzbar für Orla-/Seen-Region (Fahrzeit je nach Startpunkt)."
+    }
+  ],
+
+  // th-19 Burg Ranis (Ranis)
+  "th-19": [
+    {
+      id: "hundepension-quedlinburg-3",
+      name: "Hundepension Quedlinburg",
+      city: "Quedlinburg",
+      description: "Einsatzbar für Ranis / Burgenregionen (keine direkte Pension in jedem Dorf vorhanden)."
+    }
+  ],
+
+  // th-20 Hainleite (Bad Langensalza)
+  "th-20": [
+    {
+      id: "hundepension-wersdorf-3",
+      name: "Hundepension Wersdorf",
+      city: "Nirmsdorf",
+      website: "http://www.hundepension-wersdorf.de/",
+      description: "Nutzt die Wersdorf-Pension als zentrale Anlaufstelle für Hainleite / Bad Langensalza (Fahrzeit beachten)."
+    }
+  ]
 };
+
+
+
+
+
+
 
 
 

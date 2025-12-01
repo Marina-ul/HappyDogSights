@@ -430,7 +430,6 @@ export const viewpointsByState: Record<string, Viewpoint[]> = {
     { id: 'sh-11', name: 'Bungsberg', city: 'Bungsberg', lat: 54.0500, lng: 10.5333, description: 'Höchste Erhebung Schleswig-Holsteins' },
     { id: 'sh-12', name: 'Großer Eutiner See', city: 'Eutin', lat: 54.1167, lng: 10.3833, description: 'See-Aussicht' },
     { id: 'sh-13', name: 'Ratzeburg', city: 'Ratzeburg', lat: 53.8000, lng: 10.8000, description: 'Insel-Kathedrale mit Seenblick' },
-    { id: 'sh-14', name: 'Lauenburg Elbe', city: 'Lauenburg', lat: 53.3667, lng: 10.5667, description: 'Elbe-Blick von der Höhe' },
     { id: 'sh-15', name: 'Föhr Dunes', city: 'Föhr', lat: 54.5000, lng: 8.5167, description: 'Insel-Dünen' },
     { id: 'sh-16', name: 'Heligoland', city: 'Heligoland', lat: 54.1833, lng: 7.8833, description: 'Felsinsel mit Ausblick' },
     { id: 'sh-17', name: 'Neumünster', city: 'Neumünster', lat: 54.0667, lng: 9.8500, description: 'Höhenlage mit Aussicht' },
