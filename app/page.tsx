@@ -68,7 +68,7 @@ export default function Home() {
             
             <p className="text-base sm:text-lg text-gray-100 mb-6 drop-shadow">
               Über 320 Aussichtspunkte in 16 Bundesländern mit Informationen zu
-              Hundepensionen in der Nähe.
+              Hundepensionen in der Nähe!
             </p>
 
             {/* Search Bar im Hero */}
