@@ -66,7 +66,6 @@ export default function Home() {
                 Hundepensionen in der Nähe.
               </p>
 
-<<<<<<< HEAD
       {/* Hero Section mit HDS.jpg */}
       <section className="relative w-full h-[320px] sm:h-[420px] lg:h-[520px] overflow-hidden">
         <img
@@ -92,25 +91,12 @@ export default function Home() {
             <div className="max-w-md">
               <div className="relative">
                 <Search className="absolute left-3 top-1/2 -translate-y-1/2 text-muted-foreground w-5 h-5" />
-                <Input
-                  placeholder="Nach Bundesland oder Aussichtspunkt suchen..."
+                <Inputsuche
+                  placeholder="Suchen..."
                   value={searchQuery}
                   onChange={(e) => setSearchQuery(e.target.value)}
                   className="pl-10 h-12 bg-white/95 backdrop-blur text-foreground"
                 />
-=======
-              {/* Search Bar im Hero */}
-              <div className="max-w-md">
-                <div className="relative">
-                  <Search className="absolute left-3 top-1/2 -translate-y-1/2 text-muted-foreground w-5 h-5" />
-                  <Input
-                    placeholder="Nach Bundesland oder Aussichtspunkt suchen..."
-                    value={searchQuery}
-                    onChange={(e) => setSearchQuery(e.target.value)}
-                    className="pl-10 h-12 bg-white/95 backdrop-blur text-foreground"
-                  />
-                </div>
->>>>>>> 79646c23b5b960ea8df25f40fb5d6d78abb53ccf
               </div>
             </div>
           </div>
