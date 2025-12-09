@@ -1,7 +1,6 @@
 "use client";
 
 import { useState, useEffect, use } from "react";
-import { useParams } from "next/navigation";
 import Link from "next/link";
 import { viewpointsByState, Viewpoint } from "@/data/viewpoints";
 import { dogPensionsByViewpoint } from "@/data/dog-pensions";
@@ -19,10 +18,12 @@ import {
 import { Button } from "@/components/ui/button";
 import { MapPin, ExternalLink, ChevronLeft, Heart } from "lucide-react";
 
-export default function ViewpointPage() {
-  const params = useParams();
-  const id = params?.id as string;
-  const locale = params?.locale as string;
+export default function ViewpointPage({
+  params,
+}: {
+  params: Promise<{ id: string; locale: string }>;
+}) {
+  const { id, locale } = use(params);
 
   const [isFavorite, setIsFavorite] = useState(false);
   const [showReviewsCard, setShowReviewsCard] = useState(false);
