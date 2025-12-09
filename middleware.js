@@ -1,26 +1,24 @@
-import { NextResponse } from 'next/server';
+import { NextResponse } from "next/server";
 
-const locales = ['de', 'en'];
-const defaultLocale = 'de';
+const locales = ["de", "en"];
+const defaultLocale = "de";
 
 export function middleware(request) {
   const pathname = request.nextUrl.pathname;
 
   // Skip middleware for static files and API routes
   if (
-    pathname.startsWith('/_next') ||
-    pathname.startsWith('/api') ||
-    pathname.includes('.') ||
-    pathname.startsWith('/images')
+    pathname.startsWith("/_next") ||
+    pathname.startsWith("/api") ||
+    pathname.includes(".") ||
+    pathname.startsWith("/images")
   ) {
     return NextResponse.next();
   }
 
   // Redirect root to default locale
-  if (pathname === '/') {
-    return NextResponse.redirect(
-      new URL(`/${defaultLocale}`, request.url)
-    );
+  if (pathname === "/") {
+    return NextResponse.redirect(new URL(`/${defaultLocale}`, request.url));
   }
 
   // Check if path already has locale
@@ -40,6 +38,6 @@ export function middleware(request) {
 
 export const config = {
   matcher: [
-    '/((?!_next/static|_next/image|favicon.ico|favicon.svg|icon.*\\.png|.*\\.jpg|.*\\.jpeg|.*\\.gif|.*\\.webp|.*\\.svg).*)',
+    "/((?!_next/static|_next/image|favicon.ico|favicon.svg|icon.*\\.png|.*\\.jpg|.*\\.jpeg|.*\\.gif|.*\\.webp|.*\\.svg).*)",
   ],
 };
