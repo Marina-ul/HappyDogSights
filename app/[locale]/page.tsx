@@ -8,8 +8,7 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { states, viewpointsByState } from "@/data/viewpoints";
 import { Search, MapPin, Github, Mail, MapIcon, Heart } from "lucide-react";
-import { ThemeToggle } from "@/components/ThemeToggle"
-import { ThemeProvider } from "@/components/theme-provider";
+import { ThemeToggle } from "@/components/ThemeToggle";
 
 const Map = dynamic(() => import("@/components/map").then((mod) => mod.Map), {
   ssr: false,
@@ -74,42 +73,41 @@ export default function Home({
   );
 
   return (
-    <ThemeProvider attribute="class">
-      <div className="min-h-screen bg-gradient-to-b from-background to-muted flex flex-col">
-        {/* Header */}
-        <header className="sticky top-0 z-50 bg-background/95 backdrop-blur border-b border-border">
-          <div className="max-w-7xl mx-auto px-4 py-4 sm:px-6 lg:px-8 flex items-center justify-between">
-            <div>
-              <h1 className="text-2xl font-bold text-primary">
-                {t.title}
-              </h1>
-              <p className="text-sm text-muted-foreground">
-                {t.subtitle}
-              </p>
-            </div>
-            <div className="flex items-center gap-3">
-              <Button 
-                variant={locale === 'de' ? "default" : "outline"} 
-                size="sm"
-                asChild
-              >
-                <Link href="/de">DE</Link>
-              </Button>
-              <Button 
-                variant={locale === 'en' ? "default" : "outline"} 
-                size="sm"
-                asChild
-              >
-                <Link href="/en">EN</Link>
-              </Button>
-              <ThemeToggle />
-            </div>
+    <div className="min-h-screen bg-gradient-to-b from-background to-muted flex flex-col">
+      {/* Header */}
+      <header className="sticky top-0 z-50 bg-background/95 backdrop-blur border-b border-border">
+        <div className="max-w-7xl mx-auto px-4 py-4 sm:px-6 lg:px-8 flex items-center justify-between">
+          <div>
+            <h1 className="text-2xl font-bold text-primary">
+              {t.title}
+            </h1>
+            <p className="text-sm text-muted-foreground">
+              {t.subtitle}
+            </p>
           </div>
-        </header>
+          <div className="flex items-center gap-3">
+            <Button 
+              variant={locale === 'de' ? "default" : "outline"} 
+              size="sm"
+              asChild
+            >
+              <Link href="/de">DE</Link>
+            </Button>
+            <Button 
+              variant={locale === 'en' ? "default" : "outline"} 
+              size="sm"
+              asChild
+            >
+              <Link href="/en">EN</Link>
+            </Button>
+            <ThemeToggle />
+          </div>
+        </div>
+      </header>
 
-        {/* Main Content */}
-        <main className="flex-grow">
-          {/* Hero Section */}
+      {/* Main Content */}
+      <main className="flex-grow">
+        {/* Hero Section */}
 <section className="relative w-full h-[320px] sm:h-[420px] lg:h-[720px] overflow-hidden">
   <img
     src="/HDS.jpg"
@@ -318,6 +316,5 @@ export default function Home({
           </div>
         </footer>
       </div>
-    </ThemeProvider>
   );
 }
